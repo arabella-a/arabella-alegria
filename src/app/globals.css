@@ -1,6 +1,10 @@
 :root {
   --background: #090909;
   --foreground: #090909;
+  --h1: 62px;
+  --h2: 36px;
+  --h3: 24px;
+  --h4: 20px;
   --body-text: 18px;
   --off-white: #ECECEC;
 }
