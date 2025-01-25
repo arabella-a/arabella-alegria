@@ -1,0 +1,14 @@
+.Filter {
+    color: var(--off-white);
+}
+
+.filterCategories{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.filterCategories li {
+    justify-content: space-between;
+    margin: 2rem;
+}
