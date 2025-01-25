@@ -1,0 +1,94 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-height: 100svh;
+    padding: 80px;
+    flex-shrink: 0;
+    background-image: url("/Blur.svg");
+    background-size: 3600px 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+}
+  
+.main {
+    display: flex;
+    flex-direction: row;
+    color: var(--off-white);
+    margin: 2rem;
+}
+
+.main h1 {
+    font-family: 'Merriweather', serif;
+    color: var(--off-white);
+    font-size: var(--h1);
+}
+
+.cta {
+    font-size: 62px;
+    text-align: center;
+}
+
+.cta span {
+    font-family: 'against', serif;
+}
+
+.cta p:nth-of-type(1) {
+    transform: translateX(-7rem);
+}
+
+.cta p:nth-of-type(2) span {
+    color: var(--mimi-pink);
+}
+
+.together {
+    font-style: italic;
+    transform: translateX(-9rem);
+}
+
+.remarkable {
+    color: var(--mimi-pink);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info h4 {
+    margin-bottom: 0.5rem;
+    font-size: var(--h4);
+}
+
+.info p {
+    font-size: var(--body-text);
+}
+
+.longLine {
+    background-color: var(--off-white);
+    height: 1px;
+    width: 14.3rem;
+    margin-top: 2px;
+}
+
+.shortLine {
+    background-color: var(--off-white);
+    height: 1px;
+    width: 5rem;
+    margin-top: 2px;
+}
+
+.shorterLine {
+    background-color: var(--off-white);
+    height: 1px;
+    width: 4.25rem;
+    margin-top: 2px;
+}
+
+.sns {
+    display: flex;
+    justify-content: space-around;
+}
