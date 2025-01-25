@@ -18,7 +18,7 @@ export default function Header() {
                     <ul>
                         <Link href="/pages/Works"><li>Works</li></Link>
                         <Link href="/pages/About"><li>About</li></Link>
-                        <Link href="/"><li>Contacts</li></Link>
+                        <Link href="/pages/Contacts"><li>Contacts</li></Link>
                     </ul>
                 </div>
             </div>

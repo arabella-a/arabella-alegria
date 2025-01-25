@@ -7,6 +7,9 @@
   --h4: 20px;
   --body-text: 18px;
   --off-white: #ECECEC;
+  --mimi-pink: #F5CFE9;
+  --thristle: #B9B0D6;
+  --vista-blue: #809BC4;
 }
 
 @media (prefers-color-scheme: dark) {
