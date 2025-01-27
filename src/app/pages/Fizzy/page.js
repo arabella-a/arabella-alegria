@@ -26,7 +26,7 @@ export default function Fizzy() {
                             className={styles.can}
                         />
                     </div>
-                    <p className={styles.scroll}>Scroll down to see more</p>
+                    <p className={styles.scroll}>Scroll down to see all three flavours!</p>
                     <div className={styles.fizzyDesigns}>
                         <Image
                             src="/Oceanade_Berries.svg"
