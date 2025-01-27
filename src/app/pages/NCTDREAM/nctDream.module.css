@@ -21,3 +21,11 @@
     color: var(--off-white);
     font-size: 128px;
 }
+
+.main img {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
