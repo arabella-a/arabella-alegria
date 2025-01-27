@@ -22,10 +22,6 @@
     font-size: 128px;
 }
 
-.main p:nth-last-child() {
-    transform: translateY(-10rem);
-}
-
 .banner {
     display: flex;
     flex-direction: row;
