@@ -34,9 +34,21 @@
 
 .banner p {
     margin-bottom: 5rem;
+    line-height: 1.75rem;
 }
 
 .can {
     transform: rotate(-13deg);
     margin-right: -4rem;
+}
+
+.scroll {
+    transform: translateY(-6rem);
+}
+
+.fizzyDesigns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

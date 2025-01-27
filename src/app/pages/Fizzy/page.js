@@ -20,13 +20,13 @@ export default function Fizzy() {
                         </div>
                         <Image
                             src="/Fizzy_Flavours.png"
-                            width={800}
+                            width={750}
                             height={600}
                             alt="Fizzy's Oceanade Berries Can Mockup"
                             className={styles.can}
                         />
                     </div>
-                    <p>Scroll down to see more</p>
+                    <p className={styles.scroll}>Scroll down to see more</p>
                     <div className={styles.fizzyDesigns}>
                         <Image
                             src="/Oceanade_Berries.svg"
