@@ -11,7 +11,7 @@ export default function Development() {
                 <main className={styles.main}>
                     <h1>Works</h1>
                     <Filter/>
-                    <div className={styles.nctDreamCard}></div>
+                    <Link href="/pages/NCTDREAM"><div className={styles.nctDreamCard}></div></Link>
                     <div className={styles.Card}></div>
                     <div className={styles.Card}></div>
                     <div className={styles.Card}></div>
