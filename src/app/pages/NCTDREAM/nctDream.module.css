@@ -29,3 +29,65 @@
     justify-content: center;
     align-items: center;
 }
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner p {
+    margin-bottom: 5rem;
+    line-height: 1.75rem;
+}
+
+.banner img{
+    transform: translateY(-2rem);
+}
+
+.scroll {
+    transform: translateY(-8rem);
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main button {
+    border: none;
+    background-color: inherit;
+    color: var(--off-white);
+    transform: translateY(-3.5rem);
+    font-size: var(--body-text);
+}
+
+.line {
+    background-color: var(--off-white);
+    height: 1px;
+    width: 6.20rem;
+    transform: translateY(-3.40rem)
+}
+
+@media screen and (max-width: 1512px) {
+    .banner img {
+        width: 800px;
+        height: 500px;
+        transform: translate(4rem, -1rem);
+    }
+
+    .main h1 {
+        font-size: var(--h1);
+    }
+
+    .scroll {
+        transform: translate(2rem, -5rem);
+        margin-bottom: 2rem;
+    }
+
+    .bannerText {
+        transform: translateX(2rem);
+    }
+}
