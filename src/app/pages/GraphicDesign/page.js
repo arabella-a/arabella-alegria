@@ -11,7 +11,7 @@ export default function GraphicDesign() {
                 <main className={styles.main}>
                     <h1>Works</h1>
                     <Filter/>
-                    <Link href="/Fizzy"><div className={styles.fizzyCard}></div></Link>
+                    <Link href="/pages/Fizzy"><div className={styles.fizzyCard}></div></Link>
                 </main>
             </div>
         </>
