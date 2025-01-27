@@ -1,6 +1,7 @@
 import styles from "./GraphicDesign.module.css";
 import Header from "@/app/components/Header/Header";
 import Filter from "@/app/components/Filter/Filter";
+import Link from "next/link";
 
 export default function GraphicDesign() {
     return (
@@ -10,7 +11,7 @@ export default function GraphicDesign() {
                 <main className={styles.main}>
                     <h1>Works</h1>
                     <Filter/>
-                    <div className={styles.fizzyCard}></div>
+                    <Link href="/pages/Fizzy"><div className={styles.fizzyCard}></div></Link>
                 </main>
             </div>
         </>
