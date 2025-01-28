@@ -13,8 +13,8 @@
 }
 
 @font-face {
-  font-family: 'against', serif;
-  src: url(fonts/against\ regular.otf);
+  font-family: 'against';
+  src: url(fonts/against-regular.otf);
 }
 
 @media (prefers-color-scheme: dark) {
