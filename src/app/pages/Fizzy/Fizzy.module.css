@@ -48,3 +48,43 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 1512px) {
+    .banner img {
+        width: 850px;
+        height: 500px;
+    }
+
+    .bannerText h1 {
+        font-size: var(--h1);
+    }
+
+    .banner {
+        transform: translateX(4rem);
+    }
+
+    .scroll {
+        transform: translate(4rem, -6.25rem);
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .page {
+        padding: 40px;
+        width: 100%;
+    }
+
+    .main {
+        margin: 1rem;
+    }
+
+    .main img {
+        width: 350px;
+        height: 290px;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+}

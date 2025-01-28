@@ -12,6 +12,11 @@
   --vista-blue: #809BC4;
 }
 
+@font-face {
+  font-family: 'against', serif;
+  src: url(fonts/against\ regular.otf);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #090909;
