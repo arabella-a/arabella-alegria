@@ -33,12 +33,11 @@
     transition: transform 0.3s ease, padding 0.3s ease, background-color 0.3s ease;
 }
 
-.fizzyCard:hover {
+.fizzyCard:hover, .ningningCard:hover {
     padding: 9rem;
 }
 
-
-.fizzyCard::before {
+.fizzyCard::before, .ningningCard::before {
     content: "";
     position: absolute;
     top: 0;
@@ -51,12 +50,12 @@
     z-index: 1;
 }
 
-.fizzyCard:hover::before {
+.fizzyCard:hover::before, .ningningCard:hover::before {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.fizzyCard::after {
-    content: "Fizzy"; 
+.fizzyCard::after{
+    content: "fizzy"; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,6 +69,33 @@
     transition: opacity 0.3s ease;
 }
 
-.fizzyCard:hover::after {
+.fizzyCard:hover::after, .ningningCard:hover::after {
     opacity: 1;
+}
+
+.ningningCard {
+    position: relative;
+    padding: 7rem;
+    margin: 1rem;
+    border-radius: 15px;
+    background-image: url("/ningning_poster_wall.jpg");    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease, padding 0.3s ease, background-color 0.3s ease;
+}
+
+.ningningCard::after {
+    content: "NINGNING"; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--off-white); 
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    opacity: 0;
+    z-index: 2; 
+    transition: opacity 0.3s ease;
 }
