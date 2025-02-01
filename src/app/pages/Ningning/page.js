@@ -39,8 +39,8 @@ export default function Ningning() {
                         </p>
                         <Image
                             src="/ningning_poster_wall.jpg"
-                            width={1000}
-                            height={675}
+                            width={3000}
+                            height={2000}
                             alt="ninging's poster on a wall"
                         />
                         <p>
@@ -49,8 +49,8 @@ export default function Ningning() {
                         </p>
                         <Image
                             src="/ningning_poster_billboard.jpg"
-                            width={1000}
-                            height={650}
+                            width={3000}
+                            height={2000}
                             alt="ninging's poster on a billboard outside a building"
                         />
                     </section>
