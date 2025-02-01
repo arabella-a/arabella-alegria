@@ -11,6 +11,8 @@
 .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
     color: var(--off-white);
     margin: 2rem;
 }
@@ -41,5 +43,18 @@
 }
 
 .scroll {
-    transform: translate(10rem, -16rem);
+    transform: translate(-22rem, -16rem);
+}
+
+.gallery p{
+    margin-bottom: 1rem;
+}
+
+.gallery h3 {
+    font-family: 'Merriweather';
+    margin-bottom: 3rem;
+}
+
+.gallery img:first-of-type{
+    margin-bottom: 5rem;
 }
