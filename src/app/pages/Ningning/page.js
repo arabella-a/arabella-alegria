@@ -22,8 +22,8 @@ export default function Ningning() {
                                 alt="ningning's poster in a tilted frame"
                             />
                         </div>
-                        <p className={styles.scroll}>Scroll down to see all three flavours!</p>
                     </div>
+                    <p className={styles.scroll}>Scroll down to see how it fits into the real world!</p>
                 </main>
             </div>
         </>
