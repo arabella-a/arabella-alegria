@@ -70,7 +70,7 @@
         overflow-x: hidden;
         margin: 0 auto;
         padding: 0 auto;
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .banner {
@@ -120,7 +120,7 @@
     }
 }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 2560px) and (max-width: 5120px) {
     .page {
         justify-content: center;
         font-size: 20px;
@@ -145,12 +145,98 @@
         transform: translateX(13rem);
     }
 
-    .scroll {
-        transform: translate(-43rem, -25rem);
-    }
-
     .gallery img {
         width: 1800px;
         height: 1200px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2560px) {
+    .page {
+        justify-content: center;
+        overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .banner {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bannerText {
+        transform: translateX(15rem);
+    }
+
+    .banner img {
+        width: 1200px;
+        height: 875px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery img {
+        width: 725px;
+        height: 520px;
+    }
+
+    .gallery p {
+        width: 70%;
+    }
+
+    .scroll {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner h1 {
+        font-size: var(--h2);
+    }
+
+    .bannerText {
+        transform: translateX(15rem);
+    }
+
+    .bannerText p {
+        width: 50%;
+    }
+
+    .banner img {
+        width: 900px;
+        height: 675px;
+        transform: translate(-2rem, -4rem);
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery img {
+        width: 525px;
+        height: 350px;
+    }
+
+    .gallery p {
+        width: 63%;
+    }
+
+    .scroll {
+        margin-bottom: 3rem;
     }
 }
