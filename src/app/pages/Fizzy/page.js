@@ -15,7 +15,7 @@ export default function Fizzy() {
                             <p>
                                 Fizzy is a sparkling aid series that offers the flavour of berries, lemon hibiscus, and grapes. 
                                 Its playful, fun design reflects the refreshing taste of each time period, from the morning to midnight. 
-                                Perfect to drink in any occasion, Fizzy is your go-to for a delightful burst of flavour.
+                                Perfect to drink in any occasion, <span>fizzy</span> is your go-to for a delightful burst of flavour.
                             </p>
                         </div>
                         <Image
@@ -27,29 +27,47 @@ export default function Fizzy() {
                         />
                     </div>
                     <p className={styles.scroll}>Scroll down to see all three flavours!</p>
-                    <div className={styles.fizzyDesigns}>
+                    <p className={styles.explanation}>
+                        As previously mentioned, these flavors are influenced by the hours of the day, 
+                        reinforcing the idea that each <span>fizzy</span> flavor is perfect for any time.
+                        The design features the otter mascot fully immersed in the experience, 
+                        enjoying the essence of each flavor while surrounded by its key ingredients, 
+                        such as fruits and botanicals. This playful and inviting visual highlights the unique elements that make each drink refreshing and flavorful.
+                        In addition to the fun and dynamic ingredient display, the health benefits of the drink are clearly presented, 
+                        ensuring that consumers can easily recognize its nutritional value.
+                        Since this drink will be sold in Canada, both French and English are incorporated seamlessly into the design, 
+                        making it accessible to a wider audience.
+                    </p>
+                    <section className={styles.fizzyDesigns}>
                         <Image
-                            src="/Oceanade_Berries.svg"
+                            src="/fizzy_flavour_mockup.png"
                             width={900}
-                            height={900}
+                            height={625}
                             alt="Fizzy's Oceanade Berries Full Design"
                             className={styles.Oceanade}
                         />
                         <Image
-                            src="/Sunset_Splash.svg"
+                            src="/fizzy1.jpg"
                             width={900}
-                            height={900}
+                            height={600}
+                            alt="Fizzy's Oceanade Berries Full Design"
+                            className={styles.Oceanade}
+                        />
+                        <Image
+                            src="/fizzy2.jpg"
+                            width={900}
+                            height={600}
                             alt="Fizzy's Sunset Splash Full Design"
                             className={styles.Sunset}
                         />
                         <Image
-                            src="/Midnight_Current.svg"
+                            src="/fizzy3.jpg"
                             width={900}
-                            height={900}
+                            height={600}
                             alt="Fizzy's Midnight Current Full Design"
                             className={styles.Midnight}
                         />
-                    </div>
+                    </section>
                 </main>
             </div>
         </>

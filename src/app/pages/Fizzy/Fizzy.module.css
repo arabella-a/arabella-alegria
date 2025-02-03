@@ -7,6 +7,7 @@
     padding: 80px;
     flex-shrink: 0;
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
   
 .main {
@@ -31,6 +32,7 @@
 .banner p {
     margin-bottom: 5rem;
     line-height: 1.75rem;
+    text-align: justify;
 }
 
 .can {
@@ -40,6 +42,7 @@
 
 .scroll {
     transform: translateY(-6rem);
+    font-weight: 700;
 }
 
 .fizzyDesigns {
@@ -47,6 +50,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2rem;
+}
+
+.fizzyDesigns img {
+    margin: 1rem;
+}
+
+.explanation {
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 3rem 1px 3rem;
+    padding: 2rem;
+    line-height: 1.75rem;
+    text-align: justify;
+}
+
+.explanation span, .bannerText span {
+    font-style: italic;
 }
 
 @media screen and (max-width: 1512px) {
@@ -79,12 +100,27 @@
     }
 
     .main img {
-        width: 350px;
-        height: 290px;
+        width: 460px;
+        height: 370px;
     }
 
     .banner {
         flex-direction: column;
+    }
+
+    .bannerText {
+        transform: translateX(-1rem);
+        margin: 1rem;
+        width: 75%;
+    }
+
+    .fizzyDesigns img {
+        width: 400px;
+        height: 270px;
+    }
+
+    .scroll {
+        transform: translate(4rem, -27.5rem);
     }
 
 }
