@@ -29,23 +29,23 @@ export default function Fizzy() {
                     <p className={styles.scroll}>Scroll down to see all three flavours!</p>
                     <div className={styles.fizzyDesigns}>
                         <Image
-                            src="/Oceanade_Berries.svg"
+                            src="/fizzy1.jpg"
                             width={900}
-                            height={900}
+                            height={600}
                             alt="Fizzy's Oceanade Berries Full Design"
                             className={styles.Oceanade}
                         />
                         <Image
-                            src="/Sunset_Splash.svg"
+                            src="/fizzy2.jpg"
                             width={900}
-                            height={900}
+                            height={600}
                             alt="Fizzy's Sunset Splash Full Design"
                             className={styles.Sunset}
                         />
                         <Image
-                            src="/Midnight_Current.svg"
+                            src="/fizzy3.jpg"
                             width={900}
-                            height={900}
+                            height={600}
                             alt="Fizzy's Midnight Current Full Design"
                             className={styles.Midnight}
                         />
