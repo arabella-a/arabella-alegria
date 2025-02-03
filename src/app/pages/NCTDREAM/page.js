@@ -30,19 +30,31 @@ export default function NCTDREAM() {
                         />
                     </div>
                     <p className={styles.scroll}>Scroll down to see more</p>
-                    <div className={styles.images}>
-                        <Image
-                            src="/profile.png"
-                            height={600}
-                            width={1000}
-                            alt="dreamville profile page screenshot"
-                        />
-                        <Image
-                            src="/renjun.png"
-                            height={600}
-                            width={1000}
-                            alt="dreamville blog page screenshot"
-                        />
+                    <div className={styles.gallery}>
+                        <video autoPlay loop muted width={900}>
+                            <source
+                                src="/dreamville_landingpage.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <video autoPlay loop muted width={900}>
+                            <source
+                                src="/dreamville_posts.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <video autoPlay loop muted width={900}>
+                            <source
+                                src="/dreamville_discography.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <video autoPlay loop muted width={900}>
+                            <source
+                                src="/dreamville_profile.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
                         </div>
 
                 </main>
