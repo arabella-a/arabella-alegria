@@ -21,7 +21,7 @@
     font-size: var(--h1);
 }
 
-.nctDreamCard, .Card {
+.nctDreamCard, .Card, .reachOutCard {
     padding: 7rem;
     margin: 1rem;
     border-radius: 15px;
@@ -36,12 +36,20 @@
     transition: transform 0.3s ease, padding 0.3s ease, background-color 0.3s ease;
 }
 
-.nctDreamCard:hover {
+.reachOutCard {
+    position: relative;
+    background-image:url("/reachout_logo_variations.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, padding 0.3s ease, background-color 0.3s ease;
+}
+
+.nctDreamCard:hover, .reachOutCard:hover {
     padding: 9rem;
 }
 
-
-.nctDreamCard::before {
+.nctDreamCard::before, .reachOutCard::before {
     content: "";
     position: absolute;
     top: 0;
@@ -54,7 +62,7 @@
     z-index: 1;
 }
 
-.nctDreamCard:hover::before {
+.nctDreamCard:hover::before, .reachOutCard:hover::before {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -73,6 +81,21 @@
     transition: opacity 0.3s ease;
 }
 
-.nctDreamCard:hover::after {
+.reachOutCard::after {
+    content: "ReachOut"; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--off-white); 
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    opacity: 0;
+    z-index: 2; 
+    transition: opacity 0.3s ease;
+}
+
+.nctDreamCard:hover::after, .reachOutCard:hover::after {
     opacity: 1;
 }
