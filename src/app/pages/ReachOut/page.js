@@ -8,15 +8,24 @@ export default function ReachOut() {
             <Header/>
             <div className={styles.pages}>
                 <main className={styles.main}>
-                    <h1>ReachOut</h1>
-                    <p className={styles.figma}>Figma | Adobe Premiere</p>
-                    <p className={styles.bannerText}>
-                        A ReachOut worker supports formerly incarcerated individuals in their job search journey. 
-                        They manage clients at various stages, from active job seekers to archived records and application statuses. 
-                        Their primary challenge is organising and keeping track of clients efficiently, as juggling multiple tasks without the right tools can lead to disorganisation. 
-                        ReachOut aims to streamline this process by providing an organised, easy-to-navigate system, allowing workers to quickly access and manage client information, 
-                        making their workflow more efficient and effective. 
-                    </p>
+                    <div className={styles.banner}>
+                        <div className={styles.bannerText}>
+                        <h1>ReachOut</h1>
+                        <p>Figma | Adobe Premiere</p>
+                        <p>
+                            A ReachOut worker supports formerly incarcerated individuals in their job search journey. 
+                            They manage clients at various stages, from active job seekers to archived records and application statuses. 
+                            Their primary challenge is organising and keeping track of clients efficiently, as juggling multiple tasks without the right tools can lead to disorganisation. 
+                            ReachOut aims to streamline this process by providing an organised, easy-to-navigate system, allowing workers to quickly access and manage client information, 
+                            making their workflow more efficient and effective. 
+                        </p>
+                        </div>
+                        <Image 
+                            src={"/reachout_laptop.png"}
+                            width={1200}
+                            height={800}
+                        />
+                    </div>
                     <section>
                         <h2>What is ReachOut created for?</h2>
                         <p>

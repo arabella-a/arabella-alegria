@@ -51,4 +51,21 @@
 
 .bannerText {
     width: 80%;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.bannerText p{
+    width: 70%;
+}
+
+.banner img {
+    transform: translateY(3rem);
 }
