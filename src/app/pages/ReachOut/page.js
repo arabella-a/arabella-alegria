@@ -1,5 +1,6 @@
 import styles from "./ReachOut.module.css";
 import Header from "@/app/components/Header/Header";
+import Image from "next/image";
 
 export default function ReachOut() {
     return (
@@ -8,8 +9,14 @@ export default function ReachOut() {
             <div className={styles.pages}>
                 <main className={styles.main}>
                     <h1>ReachOut</h1>
-                    <p>Figma | Adobe Premiere</p>
-                    <p>ReachOut is a webapp created to </p>
+                    <p className={styles.figma}>Figma | Adobe Premiere</p>
+                    <p className={styles.bannerText}>
+                        A ReachOut worker supports formerly incarcerated individuals in their job search journey. 
+                        They manage clients at various stages, from active job seekers to archived records and application statuses. 
+                        Their primary challenge is organising and keeping track of clients efficiently, as juggling multiple tasks without the right tools can lead to disorganisation. 
+                        ReachOut aims to streamline this process by providing an organised, easy-to-navigate system, allowing workers to quickly access and manage client information, 
+                        making their workflow more efficient and effective. 
+                    </p>
                     <section>
                         <h2>What is ReachOut created for?</h2>
                         <p>
@@ -41,6 +48,21 @@ export default function ReachOut() {
                             This structure improves organisation, enhances efficiency, and ensures that no client falls through the cracks. 
                             By making information more accessible, workers can provide better support while reducing time spent on manual tracking.
                         </p>
+                        <Image 
+                            src="/reachout1.png"
+                            width={700}
+                            height={400}
+                        />
+                         <Image 
+                            src="/reachout2.png"
+                            width={700}
+                            height={400}
+                        />
+                        <Image 
+                            src="/reachout3.png"
+                            width={700}
+                            height={400}
+                        />
                     </section>
                 </main>
             </div>
