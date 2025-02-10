@@ -1,0 +1,54 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-height: 100svh;
+    padding: 80px;
+    flex-shrink: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+  
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: var(--off-white);
+    margin: 2rem;
+}
+
+.main h1 {
+    font-family: 'against', serif;
+    color: var(--off-white);
+    font-size: 120px;
+}
+
+.main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.main h2 {
+    font-family: 'Merriweather';
+    margin-top: 3rem;
+    text-align: left;
+}
+
+.main p {
+    margin: 1rem;
+}
+
+.main img {
+    margin: 1rem;
+}
+
+.bannerText {
+    width: 80%;
+}
