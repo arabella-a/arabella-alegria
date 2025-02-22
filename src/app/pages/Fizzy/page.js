@@ -7,6 +7,7 @@ export default function Fizzy() {
         <>
             <div className={styles.page}>
                 <Header/>
+                <p>Back &rarr;</p>
                 <main className={styles.main}>
                     <div className={styles.banner}>
                         <div className={styles.bannerText}>
