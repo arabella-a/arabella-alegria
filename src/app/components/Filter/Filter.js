@@ -2,21 +2,33 @@
 
 import styles from "./Filter.module.css";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Filter() {
+    const pathname = usePathname();
 
     return (
-        <>
-            <div className={styles.Filter}>
-                <div>
-                    <ul className={styles.filterCategories}>
-                        <Link href="/pages/GraphicDesign"><li>01 Graphic Design</li></Link>
-                        <Link href="/pages/Development"><li>02 Development</li></Link>
-                        <li><button>03 UI/UX Design</button></li>
-                        <li><button>04 Motion Graphics</button></li>
-                    </ul>
-                </div>
-            </div>
-        </>
-    )
+        <div className={styles.Filter}>
+            <ul className={styles.filterCategories}>
+                <li>
+                    <Link href="/pages/GraphicDesign" className={pathname === "/pages/GraphicDesign" ? styles.active : ""}>
+                        01 Graphic Design
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/pages/Development" className={pathname === "/pages/Development" ? styles.active : ""}>
+                        02 Development
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/" className={pathname === "/" ? styles.active : ""}>
+                        03 UI/UX Design
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/" className={pathname === "/" ? styles.active : ""}>04 Motion Graphics</Link>
+                </li>
+            </ul>
+        </div>
+    );
 }
