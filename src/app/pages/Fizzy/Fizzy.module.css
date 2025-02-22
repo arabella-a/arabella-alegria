@@ -30,7 +30,7 @@
 }
 
 .banner p {
-    margin-bottom: 5rem;
+    margin: 1rem;
     line-height: 1.75rem;
     text-align: justify;
 }
@@ -38,11 +38,6 @@
 .can {
     transform: rotate(-13deg);
     margin-right: -4rem;
-}
-
-.scroll {
-    transform: translateY(-6rem);
-    font-weight: 700;
 }
 
 .fizzyDesigns {
@@ -83,10 +78,6 @@
     .banner {
         transform: translateX(4rem);
     }
-
-    .scroll {
-        transform: translate(4rem, -6.25rem);
-    }
 }
 
 @media screen and (max-width: 690px) {
@@ -118,9 +109,4 @@
         width: 400px;
         height: 270px;
     }
-
-    .scroll {
-        transform: translate(4rem, -27.5rem);
-    }
-
 }
