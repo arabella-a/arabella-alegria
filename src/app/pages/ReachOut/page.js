@@ -13,11 +13,9 @@ export default function ReachOut() {
                         <h1>ReachOut</h1>
                         <p>Figma | Adobe Premiere</p>
                         <p>
-                            A ReachOut worker supports formerly incarcerated individuals in their job search journey. 
-                            They manage clients at various stages, from active job seekers to archived records and application statuses. 
-                            Their primary challenge is organising and keeping track of clients efficiently, as juggling multiple tasks without the right tools can lead to disorganisation. 
-                            ReachOut aims to streamline this process by providing an organised, easy-to-navigate system, allowing workers to quickly access and manage client information, 
-                            making their workflow more efficient and effective. 
+                            Reachout is a platform dedicated to supporting formerly incarcerated individuals by providing resources, 
+                            fostering community connections, and helping with reintegration into society. 
+                            It aims to create a safe space for growth, empowerment, and second chances.
                         </p>
                         </div>
                         <Image 
@@ -27,50 +25,122 @@ export default function ReachOut() {
                         />
                     </div>
                     <section>
-                        <h2>What is ReachOut created for?</h2>
-                        <p>
-                            Finding a job is already hard enough for anyone, but for formerly incarcerated individuals, 
-                            it becomes even more challenging. ReachOut is designed to bridge the gap between these individuals, 
-                            organization workers, and employers, creating a more inclusive and supportive world.
-                        </p>
-                        <h2>How will does this work?</h2>
-                        <p> 
-                            ReachOut connects three key groups: Individuals, Workers, and Employers. 
-                            Through AI-powered job matching, we make these connections smoother, helping everyone find the right fit more effectively. 
-                            This interconnected system ensures that all parties can work together towards a more inclusive workforce.
-                        </p>
-                        <h2>Problem Statement</h2>
-                        <p>
-                            For organization workers supporting formerly incarcerated individuals, managing clients can quickly become overwhelming. 
-                            Keeping track of job seekers, matching them with the right opportunities, and coordinating with employers all require time and organisation. 
-                            Without the right tools, it is easy for things to become disorganised, making it harder to provide effective support.
-                        </p>
-                        <h2>Pain Point</h2>
-                        <p>
-                            Managing multiple job seekers at different stages—active clients, archived records, and application statuses—can be overwhelming. Without a structured system, 
-                            workers may lose track of important details, leading to inefficiencies, miscommunication, and delays in support. 
-                            The lack of streamlined navigation makes it difficult to prioritise tasks and access key information quickly.
-                        </p>
-                        <h2>Solution</h2>
-                        <p>
-                            To address this, we have introduced a single-page system with a filter in the header, allowing workers to seamlessly switch between Active Clients, Archived Clients, and Application Status. 
-                            This structure improves organisation, enhances efficiency, and ensures that no client falls through the cracks. 
-                            By making information more accessible, workers can provide better support while reducing time spent on manual tracking.
-                        </p>
+                        <div>
+                            <h2>Defining the Need</h2>
+                            <p>
+                                Through our initial research, we discovered that many formerly incarcerated individuals struggle to find employment after their sentence due to a lack of skill-building opportunities and access to the necessary technology for learning. 
+                                Additionally, these individuals often face societal stigma, being unfairly branded as unfit to reintegrate into society. 
+                                This lack of opportunity and support often leads to higher rates of recidivism, further hindering their successful reintegration. 
+                                At the same time, there are many organizations dedicated to helping these individuals secure a second chance, but these workers often lack sufficient resources to effectively support their efforts. 
+                                Moreover, there are few platforms that bridge the gap between employers willing to give second chances and those seeking meaningful opportunities.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>Empowering Those Who Need It</h2>
+                            <p> 
+                                ReachOut is designed for formerly incarcerated individuals who face challenges such as discrimination and stigma when seeking employment or reintegrating into society. 
+                                Our mission is to provide these individuals with the tools and support they need to find jobs and rebuild their lives, 
+                                free from the barriers of their past. Through our research, we discovered numerous organizations and communities dedicated to helping these individuals reintegrate smoothly into society. 
+                                Moreover, many workplaces and companies are also open to offering second chances, providing these individuals with the opportunity to thrive.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>Who We Serve</h2>
+                            <Image 
+                                src={"/persona1.jpg"}
+                                width={320}
+                                height={400}
+                                alt="first page of our first persona"
+                            />
+                            <Image 
+                                src={"/persona2.jpg"}
+                                width={320}
+                                height={400}
+                                alt="second page of our first persona"
+                            />
+                        </div>
+                        <div>
+                            <Image 
+                                src={"/persona3.jpg"}
+                                width={320}
+                                height={400}
+                                alt="first page of our second persona"
+                            />
+                            <Image 
+                                src={"/persona4.jpg"}
+                                width={320}
+                                height={400}
+                                alt="second page of our second persona"
+                            />
+                        </div>
+                        <div>
+                            <h2>Key Insights</h2>
+                            <p>
+                                Formerly incarcerated individuals often struggle to find work due to stigma and discrimination, 
+                                with many being screened out because of criminal record checks. Stable employment is key to reintegration, 
+                                educing recidivism, and preventing homelessness. Despite negative perceptions, many employers report being satisfied with employees who have criminal records, 
+                                especially when hiring focuses on qualifications rather than past mistakes. Policies like Fair Chance Hiring can help reduce these barriers.
+                            </p>
+                            <p>From our research, we found a few key things that could improve the job search experience:</p>
+                            <ul>
+                                <li>
+                                    <span>Simple Job Search UX:</span> 
+                                    Easy navigation, clear filters, and mobile-friendly design make the job search smoother.
+                                </li>
+                                <li>
+                                    <span>AI Matching & Alerts:</span>
+                                    AI can match people to jobs based on skills, and alerts can keep job seekers updated.
+                                </li>
+                                <li>
+                                    <span>Showing Rehabilitation:</span>
+                                    Certifications, skills, and social connections help ex-offenders show they have showed effort to change.
+                                </li>
+                            </ul>
+                            <p>Recommendations:</p>
+                            <ul>
+                                <li>Make job applications easy to track and update in real-time.</li>
+                                <li>Let employers give feedback to help candidates improve.</li>
+                                <li>Provide filters to help job seekers find employers who are open to hiring ex-offenders.</li>
+                                <li>Make the platform user-friendly and secure.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>Design Process & Key Features</h2>
+                            <p>
+                                Our platform was designed with the goal of simplifying the job search process for formerly incarcerated individuals, 
+                                addressing their specific challenges such as stigma and limited access to resources. 
+                                By focusing on usability and the practical needs of both job seekers and employers,
+                                 we created a solution that is intuitive and supportive.
+                            </p>
+                            <p>Key features of the platform include:</p>
+                            <ul>
+                                <li>
+                                    <span>Job Matching: </span>
+                                    AI-powered job matching connects users with relevant job opportunities based on their skills and experience.
+                                </li>
+                                <li>
+                                    <span>Real-Time Application Tracking: </span>
+                                    Users can easily track their application progress and receive real-time updates
+                                </li>
+                                <li>
+                                    <span>Employer Feedback System: </span>
+                                    This feature allows employers to provide constructive feedback, helping users improve their future job applications.
+                                </li>
+                                <li>
+                                    <span>Privacy and Security: </span>
+                                    The platform ensures secure handling of personal data, with simple login methods to protect sensitive information.
+                                </li>
+                                <li>
+                                    <span>Customizable Employer Search: </span>
+                                    Users can filter employers based on their openness to hiring ex-offenders, making it easier to find a supportive workplace.
+                                </li>
+                            </ul>
+                        </div>
+                        <h2>Branding</h2>
                         <Image 
-                            src="/reachout1.png"
+                            src="/Style_Tile2.0.jpg"
                             width={700}
-                            height={400}
-                        />
-                         <Image 
-                            src="/reachout2.png"
-                            width={700}
-                            height={400}
-                        />
-                        <Image 
-                            src="/reachout3.png"
-                            width={700}
-                            height={400}
+                            height={420}
                         />
                     </section>
                 </main>
