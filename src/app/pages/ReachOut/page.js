@@ -1,6 +1,7 @@
 import styles from "./ReachOut.module.css";
 import Header from "@/app/components/Header/Header";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ReachOut() {
     return (
@@ -17,6 +18,10 @@ export default function ReachOut() {
                             fostering community connections, and helping with reintegration into society. 
                             It aims to create a safe space for growth, empowerment, and second chances.
                         </p>
+                        <Link href="https://www.figma.com/proto/MfGA57RbqWErt7qTMGdR8c/ReachOut---Design-Draft?node-id=510-2765&t=avvkTrdOtG4hkhSd-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=424%3A1831&show-proto-sidebar=1">
+                            <button>Check out our prototype!</button>
+                        </Link>
+                        <p>💙 Scroll down to see more 💙</p>
                         </div>
                         <Image 
                             src={"/reachout_laptop.png"}

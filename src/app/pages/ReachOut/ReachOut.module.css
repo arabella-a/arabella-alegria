@@ -9,6 +9,10 @@
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
 }
+
+.page p {
+    font-size: var(--body-text);
+}
   
 .main {
     display: flex;
@@ -43,4 +47,24 @@
 .bannerText p:nth-child(3) {
     padding: 1rem 0;
     line-height: 1.30rem;
+}
+
+.bannerText p:nth-child(5) {
+    padding: 3rem 0;
+}
+
+.banner button {
+    background-color: var(--vista-blue);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: var(--body-text);
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.banner button:hover {
+    background-color: inherit;
+    border: 2px var(--vista-blue) solid;
+    color: var(--off-white);
 }
