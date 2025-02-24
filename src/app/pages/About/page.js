@@ -11,7 +11,7 @@ export default function About() {
                     <h1>About</h1>
                     <div className={styles.About}>
                         <Image
-                            src="/ara_temp_profile.jpg"
+                            src="/arabella-pic.jpg"
                             width={400}
                             height={400}
                             alt="arabella's temporary photo"
