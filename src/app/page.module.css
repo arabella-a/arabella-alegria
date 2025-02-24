@@ -192,6 +192,37 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--background);
+  font-family: 'Merriweather', serif;
+  font-size: var(--h2);
+  width: 25%;
+  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.uiuxCard::before, .motionCard::before {
+  content: "Coming Soon!";
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+
+.uiuxCard:hover, .motionCard:hover {
+  background: var(--off-white);
+  background-image: none;
+  color: var(--background);
+}
+
+.uiuxCard:hover::before, .motionCard:hover::before {
+  opacity: 1;
+}
+
+.uiuxCard h3 {
+  transform: translate(-1rem, 4rem);
 }
 
 .motionCard {
@@ -199,6 +230,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  font-family: 'Merriweather';
+  font-size: var(--h2);
+  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 .motionCard {
