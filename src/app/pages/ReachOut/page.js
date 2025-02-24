@@ -6,9 +6,9 @@ import Link from "next/link";
 export default function ReachOut() {
     return (
         <>
-            <Header/>
             <div className={styles.pages}>
                 <main className={styles.main}>
+                    <Header/>
                     <div className={styles.banner}>
                         <div className={styles.bannerText}>
                         <h1>ReachOut</h1>
