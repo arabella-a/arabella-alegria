@@ -6,6 +6,12 @@
   min-height: 100svh;
   padding: 80px;
   flex-shrink: 0;
+  background-image: url("/clouds.svg");
+  background-repeat: no-repeat; 
+  overflow-x: hidden;
+  background-size: 95%;
+  background-position: center;
+  position: relative;
 }
 
 .main {
@@ -15,17 +21,94 @@
   margin: 2rem;
 }
 
-.main h1 {
-  font-family: 'against', serif;
-  font-size: 100px;
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 10rem;
+}
+
+.firstName svg {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.firstName path {
+  width: 100%;
+  fill: transparent;
+  stroke: var(--off-white);
+  stroke-width: 0.7;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 100;
+  animation: textAnimation 4s ease-in-out 1 forwards;
+}
+
+@keyframes textAnimation {
+  0% {
+    stroke-dashoffset: 50;
+  }
+
+  90% {
+    fill: transparent;
+  }
+
+  100% {
+    fill: var(--off-white);
+    stroke-dashoffset: 0;
+  }
+}
+
+.butterfly {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-20%);
+  z-index: 0;
+  animation: flyLeftToRightAndUp 6s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+}
+
+@keyframes flyLeftToRightAndUp {
+  0% {
+    left: 100%;
+    top: 50%;
+    transform: translateY(-20%) scale(0.5) rotate(-5deg);
+  }
+  25% {
+    left: 75%;
+    top: 53%;
+    transform: translateY(-18%) scale(1.05) rotate(-10deg);
+  }
+  50% {
+    left: 50%;
+    top: 50%;
+    transform: translateY(-25%) scale(0.7) rotate(-5deg);
+  }
+  75% {
+    left: 25%;
+    top: 47%;
+    transform: translateY(-18%) scale(1.05) rotate(-10deg);
+  }
+  100% {
+    left: 10%;
+    top: 30%;
+    transform: translateY(-20%) scale(1) rotate(10deg);
+  }
+}
+
+.lastName path{
+  fill: transparent;
+  stroke: var(--off-white);
+  stroke-width: 0.7;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 100;
+  animation: textAnimation 6s ease-in-out 1 forwards;
 }
 
 .devCard, .graphicCard, .uiuxCard, .motionCard {
-  padding: 5rem;
-  background-color: var(--off-white);
-  color: var(--background);
-  border-radius: 15px;
-  margin: 0.5rem;
+  border: none;
 }
 
 .lineOne, .lineTwo {
@@ -39,6 +122,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.devCard:hover {
+  background: url("/nctdream_mockup.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.devCard:hover h3 {
+  display: none
 }
 
 .devCard h3 {
@@ -92,22 +186,4 @@
 
 .motionCard {
   width: 34rem;
-}
-
-.info {
-  display: flex;
-  margin: 0.5rem;
-}
-
-.info p {
-  margin-left: 0.5rem;
-}
-
-.title h1:last-of-type {
-  margin-left: 22rem;
-  margin-bottom: 2rem;
-}
-
-.title p {
-  transform: translateY(-11rem);
 }
