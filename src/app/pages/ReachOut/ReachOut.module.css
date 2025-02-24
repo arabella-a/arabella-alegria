@@ -9,12 +9,14 @@
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
 }
+
+.page p {
+    font-size: var(--body-text);
+}
   
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-items: center;
     color: var(--off-white);
     margin: 2rem;
 }
@@ -22,36 +24,7 @@
 .main h1 {
     font-family: 'against', serif;
     color: var(--off-white);
-    font-size: 120px;
-}
-
-.main section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    padding: 1rem;
-    margin: 1rem;
-}
-
-.main h2 {
-    font-family: 'Merriweather';
-    margin-top: 3rem;
-    text-align: left;
-}
-
-.main p {
-    margin: 1rem;
-}
-
-.main img {
-    margin: 1rem;
-}
-
-.bannerText {
-    width: 80%;
-
+    font-size: 92px;
 }
 
 .banner {
@@ -59,13 +32,80 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 100%;
+    margin: 1rem;
+    padding: 2rem;
 }
 
-.bannerText p{
-    width: 70%;
+.bannerText {
+    transform: translate(17rem, -10rem);
 }
 
-.banner img {
-    transform: translateY(3rem);
+.bannerText p:nth-child(2) {
+    font-weight: 600;
+    margin: 0.75rem 0;
+}
+
+.bannerText p:nth-child(3) {
+    padding: 1rem 0;
+    line-height: 1.30rem;
+}
+
+.bannerText p:nth-child(5) {
+    padding: 3rem 0;
+}
+
+.banner button {
+    background-color: var(--vista-blue);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: var(--body-text);
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.banner button:hover {
+    background-color: inherit;
+    border: 2px var(--vista-blue) solid;
+    color: var(--off-white);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    line-height: 1.30rem;
+}
+
+.paragraphs h2 {
+    margin: 0.75rem 0;
+}
+
+.paragraphs p {
+    margin: 0.75rem 0;
+    width: 100%;
+}
+
+.persona img {
+    margin: 0 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.insight, .reco, .features {
+    line-height: 1.50rem;
+    margin-left: 2rem;
+}
+
+.insight span, .reco span, .features span {
+    font-weight: 600;
 }
