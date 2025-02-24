@@ -20,5 +20,27 @@
 .main h1 {
     font-family: 'against', serif;
     color: var(--off-white);
-    font-size: 100px;
+    font-size: 92px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bannerText {
+    transform: translate(17rem, -10rem);
+}
+
+.bannerText p:nth-child(2) {
+    font-weight: 600;
+    margin: 0.75rem 0;
+}
+
+.bannerText p:nth-child(3) {
+    padding: 1rem 0;
+    line-height: 1.30rem;
 }

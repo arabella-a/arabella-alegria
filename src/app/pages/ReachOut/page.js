@@ -11,7 +11,7 @@ export default function ReachOut() {
                     <div className={styles.banner}>
                         <div className={styles.bannerText}>
                         <h1>ReachOut</h1>
-                        <p>Figma | Adobe Premiere</p>
+                        <p className={styles.type}>Figma | Adobe Premiere</p>
                         <p>
                             Reachout is a platform dedicated to supporting formerly incarcerated individuals by providing resources, 
                             fostering community connections, and helping with reintegration into society. 
@@ -22,10 +22,11 @@ export default function ReachOut() {
                             src={"/reachout_laptop.png"}
                             width={1200}
                             height={800}
+                            alt="laptop mockup"
                         />
                     </div>
-                    <section>
-                        <div>
+                    <section className={styles.info}>
+                        <div className={styles.paragraphs}>
                             <h2>Defining the Need</h2>
                             <p>
                                 Through our initial research, we discovered that many formerly incarcerated individuals struggle to find employment after their sentence due to a lack of skill-building opportunities and access to the necessary technology for learning. 
@@ -35,7 +36,7 @@ export default function ReachOut() {
                                 Moreover, there are few platforms that bridge the gap between employers willing to give second chances and those seeking meaningful opportunities.
                             </p>
                         </div>
-                        <div>
+                        <div className={styles.paragraphs}>
                             <h2>Empowering Those Who Need It</h2>
                             <p> 
                                 ReachOut is designed for formerly incarcerated individuals who face challenges such as discrimination and stigma when seeking employment or reintegrating into society. 
@@ -44,7 +45,7 @@ export default function ReachOut() {
                                 Moreover, many workplaces and companies are also open to offering second chances, providing these individuals with the opportunity to thrive.
                             </p>
                         </div>
-                        <div>
+                        <div className={styles.paragraphs}>
                             <h2>Who We Serve</h2>
                             <Image 
                                 src={"/persona1.jpg"}
@@ -59,7 +60,7 @@ export default function ReachOut() {
                                 alt="second page of our first persona"
                             />
                         </div>
-                        <div>
+                        <div className={styles.paragraphs}>
                             <Image 
                                 src={"/persona3.jpg"}
                                 width={320}
@@ -73,7 +74,7 @@ export default function ReachOut() {
                                 alt="second page of our second persona"
                             />
                         </div>
-                        <div>
+                        <div className={styles.paragraphs}>
                             <h2>Key Insights</h2>
                             <p>
                                 Formerly incarcerated individuals often struggle to find work due to stigma and discrimination, 
@@ -104,7 +105,7 @@ export default function ReachOut() {
                                 <li>Make the platform user-friendly and secure.</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className={styles.paragraphs}>
                             <h2>Design Process & Key Features</h2>
                             <p>
                                 Our platform was designed with the goal of simplifying the job search process for formerly incarcerated individuals, 
@@ -136,12 +137,15 @@ export default function ReachOut() {
                                 </li>
                             </ul>
                         </div>
+                        <div className={styles.paragraphs}>
                         <h2>Branding</h2>
-                        <Image 
-                            src="/Style_Tile2.0.jpg"
-                            width={700}
-                            height={420}
-                        />
+                            <Image 
+                                src="/Style_Tile2.0.jpg"
+                                width={700}
+                                height={420}
+                                alt="branding guideline"
+                            />
+                        </div>
                     </section>
                 </main>
             </div>
