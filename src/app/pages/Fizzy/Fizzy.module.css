@@ -65,6 +65,24 @@
     font-style: italic;
 }
 
+.backBtn {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 15rem;
+    padding: 3rem;
+}
+
+.backBtn button {
+    background: inherit;
+    border: none;
+    font-size: var(--body-text);
+}
+
+.backBtn button:hover {
+    color: var(--mimi-pink);
+}
+
 @media screen and (max-width: 1512px) {
     .banner img {
         width: 850px;

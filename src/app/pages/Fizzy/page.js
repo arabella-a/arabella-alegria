@@ -1,13 +1,18 @@
 import styles from "./Fizzy.module.css";
 import Header from "@/app/components/Header/Header";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Fizzy() {
     return (
         <>
             <div className={styles.page}>
                 <Header/>
-                <p>Back &rarr;</p>
+                <div className={styles.backBtn}>
+                    <Link href={"/pages/GraphicDesign"}>
+                        <button>Back &rarr;</button>
+                    </Link>
+                </div>
                 <main className={styles.main}>
                     <div className={styles.banner}>
                         <div className={styles.bannerText}>
