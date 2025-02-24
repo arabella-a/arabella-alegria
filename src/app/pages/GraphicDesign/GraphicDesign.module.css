@@ -6,8 +6,9 @@
     min-height: 100svh;
     padding: 80px;
     flex-shrink: 0;
+    cursor: url('/path/to/butterfly-cursor.png'), auto;
 }
-  
+
 .main {
     display: flex;
     flex-direction: column;

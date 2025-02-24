@@ -7,10 +7,10 @@ export default function GraphicDesign() {
     return (
         <>
             <div className={styles.page}>
-                <Header/>
+                <Header />
                 <main className={styles.main}>
                     <h1>Works</h1>
-                    <Filter/>
+                    <Filter />
                     <Link href="/pages/Fizzy">
                         <div className={styles.fizzyCard}></div>
                     </Link>
@@ -20,5 +20,5 @@ export default function GraphicDesign() {
                 </main>
             </div>
         </>
-    )
+    );
 }
