@@ -33,6 +33,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 1rem;
+    padding: 2rem;
 }
 
 .bannerText {
@@ -67,4 +69,43 @@
     background-color: inherit;
     border: 2px var(--vista-blue) solid;
     color: var(--off-white);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    line-height: 1.30rem;
+}
+
+.paragraphs h2 {
+    margin: 0.75rem 0;
+}
+
+.paragraphs p {
+    margin: 0.75rem 0;
+    width: 100%;
+}
+
+.persona img {
+    margin: 0 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.insight, .reco, .features {
+    line-height: 1.50rem;
+    margin-left: 2rem;
+}
+
+.insight span, .reco span, .features span {
+    font-weight: 600;
 }

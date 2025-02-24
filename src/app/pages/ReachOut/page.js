@@ -52,32 +52,36 @@ export default function ReachOut() {
                         </div>
                         <div className={styles.paragraphs}>
                             <h2>Who We Serve</h2>
-                            <Image 
-                                src={"/persona1.jpg"}
-                                width={320}
-                                height={400}
-                                alt="first page of our first persona"
-                            />
-                            <Image 
-                                src={"/persona2.jpg"}
-                                width={320}
-                                height={400}
-                                alt="second page of our first persona"
-                            />
+                            <div className={styles.persona}>
+                                <Image 
+                                    src={"/persona1.jpg"}
+                                    width={320}
+                                    height={400}
+                                    alt="first page of our first persona"
+                                />
+                                <Image 
+                                    src={"/persona2.jpg"}
+                                    width={320}
+                                    height={400}
+                                    alt="second page of our first persona"
+                                />
+                            </div>
                         </div>
                         <div className={styles.paragraphs}>
-                            <Image 
-                                src={"/persona3.jpg"}
-                                width={320}
-                                height={400}
-                                alt="first page of our second persona"
-                            />
-                            <Image 
-                                src={"/persona4.jpg"}
-                                width={320}
-                                height={400}
-                                alt="second page of our second persona"
-                            />
+                            <div className={styles.persona}>
+                                <Image 
+                                    src={"/persona3.jpg"}
+                                    width={320}
+                                    height={400}
+                                    alt="first page of our second persona"
+                                />
+                                <Image 
+                                    src={"/persona4.jpg"}
+                                    width={320}
+                                    height={400}
+                                    alt="second page of our second persona"
+                                />
+                            </div>
                         </div>
                         <div className={styles.paragraphs}>
                             <h2>Key Insights</h2>
@@ -88,27 +92,27 @@ export default function ReachOut() {
                                 especially when hiring focuses on qualifications rather than past mistakes. Policies like Fair Chance Hiring can help reduce these barriers.
                             </p>
                             <p>From our research, we found a few key things that could improve the job search experience:</p>
-                            <ul>
+                            <ul className={styles.insight}>
                                 <li>
-                                    <span>Simple Job Search UX:</span> 
+                                    <span>Simple Job Search UX: </span> 
                                     Easy navigation, clear filters, and mobile-friendly design make the job search smoother.
                                 </li>
                                 <li>
-                                    <span>AI Matching & Alerts:</span>
+                                    <span>AI Matching & Alerts: </span>
                                     AI can match people to jobs based on skills, and alerts can keep job seekers updated.
                                 </li>
                                 <li>
-                                    <span>Showing Rehabilitation:</span>
+                                    <span>Showing Rehabilitation: </span>
                                     Certifications, skills, and social connections help ex-offenders show they have showed effort to change.
                                 </li>
                             </ul>
                             <p>Recommendations:</p>
-                            <ul>
+                            <ol className={styles.reco}>
                                 <li>Make job applications easy to track and update in real-time.</li>
                                 <li>Let employers give feedback to help candidates improve.</li>
                                 <li>Provide filters to help job seekers find employers who are open to hiring ex-offenders.</li>
                                 <li>Make the platform user-friendly and secure.</li>
-                            </ul>
+                            </ol>
                         </div>
                         <div className={styles.paragraphs}>
                             <h2>Design Process & Key Features</h2>
@@ -119,7 +123,7 @@ export default function ReachOut() {
                                  we created a solution that is intuitive and supportive.
                             </p>
                             <p>Key features of the platform include:</p>
-                            <ul>
+                            <ol className={styles.features}>
                                 <li>
                                     <span>Job Matching: </span>
                                     AI-powered job matching connects users with relevant job opportunities based on their skills and experience.
@@ -140,7 +144,7 @@ export default function ReachOut() {
                                     <span>Customizable Employer Search: </span>
                                     Users can filter employers based on their openness to hiring ex-offenders, making it easier to find a supportive workplace.
                                 </li>
-                            </ul>
+                            </ol>
                         </div>
                         <div className={styles.paragraphs}>
                         <h2>Branding</h2>
