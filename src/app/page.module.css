@@ -96,7 +96,9 @@
   font-family: 'Merriweather';
 }
 
-.recentProjects span {
-  font-size: 800;
+.circle {
+  background-color: var(--off-white);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
 }
-

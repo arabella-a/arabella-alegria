@@ -39,7 +39,7 @@ export default function Home() {
         <div className={styles.recentCard}>
           <div className={styles.projText}>
             <div className={styles.projectType}>
-              <div className={styles.cirle}></div>
+              <div className={styles.circle}></div>
               <p>UI/UX Design — 2024</p>
             </div>
             <div className={styles.projectDesc}>
