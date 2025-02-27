@@ -23,35 +23,6 @@ export default function Home() {
       <div className={styles.butterfly}>
         <Image src={"/buttfly-1.svg"} width={390} height={419} alt="butterfly vector"/>
       </div>
-      <section className={styles.cards}>
-          <div className={styles.lineOne}>
-            <Link href="/">
-              <div className={styles.devCard}>
-                <h3>Development</h3>
-              </div>
-            </Link>
-            <div className={styles.graphicCard}>
-              <h3>Graphic Design</h3>
-            </div>
-          </div>
-          <div className={styles.lineTwo}>
-            <div className={styles.uiuxCard}>
-              <h3>UI/UX</h3>
-            </div>
-            <div className={styles.motionCard}>
-              <h3>Motion Graphics</h3>
-            </div>
-          </div>
-          <div className={styles.info}>
-            <Image
-              src="/info_icon_white.svg"
-              width={20}
-              height={20}
-              alt="information icon"
-            />
-            <p>Hover over the cards to see previews of my work!</p>
-          </div>
-        </section>
       </main>
     </div>
   );
