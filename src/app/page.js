@@ -20,14 +20,48 @@ export default function Home() {
             </svg>
           </div>
           <div className={styles.information}>
-            <p>Portfolio 2024</p>
-            <p>&#91; Designer &#93;</p>
-            <p>Vancouver, BC</p>
+            <ul>
+              <li>Portfolio 2024</li>
+              <li>&#91; Designer &#93;</li>
+              <li>Vancouver, BC</li>
+            </ul>
           </div>
       </section>
       <div className={styles.butterfly}>
-        <Image src={"/buttfly-1.svg"} width={390} height={419} alt="butterfly vector"/>
+        <Image 
+          src={"/buttfly-1.svg"} 
+          width={390} height={419} 
+          alt="butterfly vector"
+        />
       </div>
+      <section className={styles.recentProjects}>
+        <h2>Recent Projects</h2>
+        <div className={styles.recentCard}>
+          <div className={styles.projText}>
+            <div className={styles.projectType}>
+              <div className={styles.cirle}></div>
+              <p>UI/UX Design — 2024</p>
+            </div>
+            <div className={styles.projectDesc}>
+              <h3>ReachOut — Web App</h3>
+              <p>
+                ReachOut supports formerly incarcerated individuals by offering resources, building community, and aiding reintegration — a space for growth, empowerment, and second chances.
+              </p>
+            </div>
+            <button>
+              View Project 
+              <span>&#8599;</span>
+            </button>
+            <div className={styles.lineBtn}></div>
+          </div>
+          <Image 
+            src={"/reachoutlaptop.jpg"}
+            width={600}
+            height={400}
+            alt="reachout website on laptop mockup"
+          />
+        </div>
+      </section>
       </main>
     </div>
   );

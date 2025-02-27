@@ -26,7 +26,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 9.5rem;
+  margin: 5rem 0;
+  transform: scale(90%);
 }
 
 .firstName svg {
@@ -42,7 +43,7 @@
   stroke-width: 0.7;
   stroke-dasharray: 200;
   stroke-dashoffset: 100;
-  animation: textAnimation 4s ease-in-out 1 forwards;
+  animation: textAnimation 2s ease-in-out 1 forwards;
 }
 
 @keyframes textAnimation {
@@ -74,6 +75,28 @@
   stroke-width: 0.7;
   stroke-dasharray: 200;
   stroke-dashoffset: 100;
-  animation: textAnimation 6s ease-in-out 1 forwards;
+  animation: textAnimation 3s ease-in-out 1 forwards;
+}
+
+.information ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+}
+
+.information li {
+  list-style: none;
+  margin: 6rem 9rem;
+}
+
+.recentProjects h2 {
+  font-size: 40px;
+  font-family: 'Merriweather';
+}
+
+.recentProjects span {
+  font-size: 800;
 }
 
