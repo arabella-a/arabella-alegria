@@ -62,11 +62,10 @@
 
 .butterfly {
   position: absolute;
-  top: 50%;
-  left: 100%;
-  transform: translateY(-20%);
+  top: 28%;
+  left: 10%;
+  transform: scale(50%);
   z-index: 0;
-  animation: flyLeftToRightAndUp 6s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
 }
 
 .lastName path{
@@ -77,3 +76,4 @@
   stroke-dashoffset: 100;
   animation: textAnimation 6s ease-in-out 1 forwards;
 }
+
