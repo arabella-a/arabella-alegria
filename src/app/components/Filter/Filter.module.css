@@ -1,6 +1,8 @@
 .Filter {
     width: 100%;
     padding: 2rem 0;
+    border-bottom: solid var(--off-white) 0.5px;
+    padding-bottom: 10px;
 }
 
 .filterCategories {
@@ -9,7 +11,7 @@
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    gap: 1rem;
+    gap: 3.5rem;
 }
 
 .filterCategories li {
