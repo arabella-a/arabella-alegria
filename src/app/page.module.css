@@ -11,6 +11,7 @@
   background-position: top center;
   position: relative;
   overflow-x: hidden;
+  color: var(--off-white);
 }
 
 .main {
@@ -61,14 +62,6 @@
   }
 }
 
-.butterfly {
-  position: absolute;
-  top: 28%;
-  left: 10%;
-  transform: scale(50%);
-  z-index: 0;
-}
-
 .lastName path{
   fill: transparent;
   stroke: var(--off-white);
@@ -101,4 +94,55 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
+  margin-right: 10px;
+}
+
+.recentProjects {
+  padding: 80px;
+}
+
+.recentCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recentCard img {
+  margin-top: 6rem;
+}
+
+.projectType {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  margin-top: 3rem;
+}
+
+.projectDesc {
+font-family: 'Lato';
+margin: 2rem 0;
+}
+
+.projectDesc h3{
+  font-size: 64px;
+  width: 70%;
+  margin-bottom: 3rem;
+  line-height: 70px;
+}
+
+.projectDesc p {
+  line-height: 24px;
+  font-size: 18px;
+  width: 70%;
+}
+
+.viewBtn {
+  background-color: inherit;
+  color: var(--off-white);
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px var(--off-white) solid;
+  padding-bottom: 2px;
+  font-family: 'Lato';
+  margin-top: 2rem;
 }
