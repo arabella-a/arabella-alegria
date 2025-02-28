@@ -48,10 +48,12 @@ export default function Home() {
                 ReachOut supports formerly incarcerated individuals by offering resources, building community, and aiding reintegration — a space for growth, empowerment, and second chances.
               </p>
             </div>
-            <button className={styles.viewBtn}>
-              View Project 
-              <span> &#8599;</span>
-            </button>
+            <Link href="/pages/ReachOut">
+              <button className={styles.viewBtn}>
+                View Project 
+                <span> &#8599;</span>
+              </button>
+            </Link>
           </div>
           <Image 
             src={"/reachoutlaptop.jpg"}
@@ -72,10 +74,12 @@ export default function Home() {
                 fizzy is a sparkling aid series with flavours like berries, lemon hibiscus, and grapes. With a playful design, it is perfect from morning to midnight — a delightful burst of flavour for any occasion.
               </p>
             </div>
-            <button className={styles.viewBtn}>
-              View Project 
-              <span> &#8599;</span>
-            </button>
+            <Link href="/pages/Fizzy">
+              <button className={styles.viewBtn}>
+                View Project 
+                <span> &#8599;</span>
+              </button>
+            </Link>
           </div>
           <Image 
             src={"/threecans-rectangular.jpg"}
@@ -96,10 +100,12 @@ export default function Home() {
                 A concept poster for aespa's Japanese single, Hot Mess, drawing inspiration from Y2K Japanese magazine covers.
               </p>
             </div>
-            <button className={styles.viewBtn}>
-              View Project 
-              <span> &#8599;</span>
-            </button>
+            <Link href="/pages/Ningning">
+              <button className={styles.viewBtn}>
+                View Project 
+                <span> &#8599;</span>
+              </button>
+            </Link>
           </div>
           <Image 
             src={"/aespa-rectangular.jpg"}
