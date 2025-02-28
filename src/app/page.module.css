@@ -42,9 +42,9 @@
   fill: transparent;
   stroke: var(--off-white);
   stroke-width: 0.7;
-  stroke-dasharray: 200;
-  stroke-dashoffset: 100;
-  animation: textAnimation 2s ease-in-out 1 forwards;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation: textAnimation 3s ease-in-out 1 forwards;
 }
 
 @keyframes textAnimation {
@@ -68,7 +68,7 @@
   stroke-width: 0.7;
   stroke-dasharray: 200;
   stroke-dashoffset: 100;
-  animation: textAnimation 3s ease-in-out 1 forwards;
+  animation: textAnimation 3.5s ease-in-out 1 forwards;
 }
 
 .information ul{
