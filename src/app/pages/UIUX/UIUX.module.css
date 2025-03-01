@@ -6,21 +6,59 @@
     min-height: 100svh;
     padding: 80px;
     flex-shrink: 0;
-    overflow-x: hidden;
     font-family: 'Lato';
 }
   
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     color: var(--off-white);
     margin: 2rem;
 }
 
 .main h1 {
-    font-family: 'against';
+    font-family: 'Merriweather', serif;
     color: var(--off-white);
     font-size: var(--h1);
-    margin-bottom: 1rem;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.banner {
+    margin: 3rem 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid var(--off-white);
+}
+
+.banner h3 {
+    font-size: 32px;
+}
+
+.bannerInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner p {
+    color: #7c7c7c;
+}
+
+.lineOne, .lineTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.lineTwo {
+    margin: -7rem 0 0 0;
 }
