@@ -6,6 +6,7 @@
     min-height: 100svh;
     padding: 80px;
     flex-shrink: 0;
+    font-family: 'Lato';
 }
   
 .main {
@@ -19,4 +20,48 @@
     font-family: 'Merriweather', serif;
     color: var(--off-white);
     font-size: var(--h1);
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.banner {
+    margin: 3rem 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid var(--off-white);
+}
+
+.banner h3 {
+    font-size: 32px;
+}
+
+.bannerInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner p {
+    color: #7c7c7c;
+}
+
+.lineOne, .lineTwo {
+    display: flex;
+    flex-direction: row;
+}
+
+.lineOne {
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.lineTwo {
+    margin: -7rem 31rem 0 0;
 }

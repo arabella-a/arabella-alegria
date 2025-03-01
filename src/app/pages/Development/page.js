@@ -48,7 +48,7 @@ export default function Development() {
                                     alt="hivefive on phone mockup"
                                 />
                                 <div className={styles.bannerInformation}>
-                                    <h3>ReachOut</h3>
+                                    <h3>HiveFive</h3>
                                     <Link href="/"><p>View Project</p></Link>
                                 </div>
                             </div>
