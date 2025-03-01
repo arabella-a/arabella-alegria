@@ -1,10 +1,10 @@
 import Header from "@/app/components/Header/Header";
 import Filter from "@/app/components/Filter/Filter";
-import styles from "./Development.module.css";
+import styles from "./UIUX.module.css"
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Development() {
+export default function UIUX() {
     return (
         <>
             <div className={styles.page}>
@@ -49,6 +49,18 @@ export default function Development() {
                                 />
                                 <div className={styles.bannerInformation}>
                                     <h3>HiveFive</h3>
+                                    <Link href="/"><p>View Project</p></Link>
+                                </div>
+                            </div>
+                            <div className={styles.banner}>
+                                <Image 
+                                    src={"/exutoirepc.jpeg"}
+                                    width={380}
+                                    height={550}
+                                    alt="exutoire bakery on computer mockup"
+                                />
+                                <div className={styles.bannerInformation}>
+                                    <h3>Exutoire</h3>
                                     <Link href="/"><p>View Project</p></Link>
                                 </div>
                             </div>

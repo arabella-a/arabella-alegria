@@ -1,10 +1,10 @@
 import Header from "@/app/components/Header/Header";
 import Filter from "@/app/components/Filter/Filter";
-import styles from "./Development.module.css";
+import styles from "./Illustrations.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Development() {
+export default function Illustrations() {
     return (
         <>
             <div className={styles.page}>
@@ -16,41 +16,27 @@ export default function Development() {
                         <div className={styles.lineOne}>
                             <div className={styles.banner}>
                                     <Image 
-                                        src={"/dreamlaptop.jpeg"}
+                                        src={"/illustration-banner.jpeg"}
                                         width={380}
                                         height={550}
-                                        alt="dreamville on laptop mockup"
+                                        alt="black and white illustration of a woman"
                                     />
                                     <div className={styles.bannerInformation}>
-                                        <h3>DREAMville</h3>
-                                        <Link href="/pages/NCTDREAM"><p>View Project</p></Link>
+                                        <h3>Brush Study</h3>
+                                        <Link href="/pages/NCTDREAM"><p>View Illustration</p></Link>
                                     </div>
                             </div>
                             <div className={styles.banner}>
                                     <Image 
-                                        src={"/reachout-cut.jpeg"}
+                                        src={"/mechanical-illustration.jpeg"}
                                         width={380}
                                         height={550}
-                                        alt="reachout on laptop mockup"
+                                        alt="kate spade pearl watch illustration"
                                     />
                                     <div className={styles.bannerInformation}>
-                                        <h3>ReachOut</h3>
-                                        <Link href="/pages/ReachOut"><p>View Project</p></Link>
+                                        <h3>Watch</h3>
+                                        <Link href="/pages/ReachOut"><p>View Illustration</p></Link>
                                     </div>
-                            </div>
-                        </div>
-                        <div className={styles.lineTwo}>
-                            <div className={styles.banner}>
-                                <Image 
-                                    src={"/hivefivephone.jpeg"}
-                                    width={380}
-                                    height={550}
-                                    alt="hivefive on phone mockup"
-                                />
-                                <div className={styles.bannerInformation}>
-                                    <h3>HiveFive</h3>
-                                    <Link href="/"><p>View Project</p></Link>
-                                </div>
                             </div>
                         </div>
                     </section>

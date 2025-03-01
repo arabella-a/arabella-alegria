@@ -54,14 +54,11 @@
 .lineOne, .lineTwo {
     display: flex;
     flex-direction: row;
-}
-
-.lineOne {
     justify-content: center;
     align-items: center;
     gap: 7rem;
 }
 
 .lineTwo {
-    margin: -7rem 31rem 0 0;
+    margin: -7rem 0 0 0;
 }

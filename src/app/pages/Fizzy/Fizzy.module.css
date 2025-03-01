@@ -6,7 +6,7 @@
     min-height: 100svh;
     padding: 80px;
     flex-shrink: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     overflow-x: hidden;
 }
   
@@ -18,7 +18,7 @@
 }
 
 .main h1 {
-    font-family: 'against', serif;
+    font-family: 'against';
     color: var(--off-white);
     font-size: 128px;
 }
