@@ -4,7 +4,7 @@ import styles from "./UIUX.module.css"
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Development() {
+export default function UIUX() {
     return (
         <>
             <div className={styles.page}>
