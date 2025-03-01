@@ -20,7 +20,7 @@
 }
 
 .main h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather';
     color: var(--off-white);
     font-size: var(--h1);
 }
@@ -43,13 +43,13 @@
 }
 
 .aboutMe h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-size: var(--h2);
     margin-bottom: 2rem;
 }
 
 .aboutMe p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     text-align: justify;
     font-size: var(--body-text);
 }

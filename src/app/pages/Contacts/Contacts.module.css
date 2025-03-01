@@ -21,7 +21,7 @@
 }
 
 .main h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather';
     color: var(--off-white);
     font-size: var(--h1);
 }
@@ -34,7 +34,7 @@
 }
 
 .cta span {
-    font-family: 'against', serif;
+    font-family: 'against';
 }
 
 .cta p:nth-of-type(1) {
