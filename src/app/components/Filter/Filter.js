@@ -26,7 +26,7 @@ export default function Filter() {
                 </Link>
                 </li>
                 <li>
-                    <Link href="/" className={pathname === "/" ? styles.active : ""}>04 Motion Graphics</Link>
+                    <Link href="/pages/MotionGraphics" className={pathname === "/pagesMotionGraphics" ? styles.active : ""}>04 Motion Graphics</Link>
                 </li>
                 <li>
                     <Link href="/" className={pathname === "/" ? styles.active : ""}>05 Illustrations</Link>
