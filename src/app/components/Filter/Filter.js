@@ -21,7 +21,7 @@ export default function Filter() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/" className={pathname === "/" ? styles.active : ""}>
+                    <Link href="/" className={pathname === "/pages/UIUX" ? styles.active : ""}>
                         03 UI/UX Design
                     </Link>
                 </li>
