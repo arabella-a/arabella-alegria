@@ -28,3 +28,40 @@
     color: var(--off-white);
     font-size: 92px;
 }
+
+.imgContainer {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.4);
+}
+  
+.imgContainer::after {
+    content: "ReachOut";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 14rem;
+    font-weight: bold;
+    font-family: 'against';
+}
+.information ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
