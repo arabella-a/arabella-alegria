@@ -25,6 +25,23 @@ export default function ReachOut() {
                             <li>December 2024</li>
                         </ul>
                     </div>
+                    <div className={styles.aboutContainer}>
+                        <Image 
+                            src={"/reachout-settings.png"}
+                            width={1500}
+                            height={1000}
+                            alt="reachout settings page on laptop mockup"
+                        />
+                        <div className={styles.aboutInformation}>
+                            <h2>About Project</h2>
+                            <p>
+                                Reachout is a platform dedicated to supporting formerly incarcerated individuals by providing resources, 
+                                fostering community connections, and helping with reintegration into society. 
+                                It aims to create a safe space for growth, empowerment, and second chances.
+                            </p>
+                            <button>View Prototype</button>
+                        </div>
+                    </div>
                 </main>
             </div>
         </>
