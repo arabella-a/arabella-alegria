@@ -23,12 +23,6 @@
     margin: 2rem;
 }
 
-.main h1 {
-    font-family: 'against';
-    color: var(--off-white);
-    font-size: 92px;
-}
-
 .imgContainer {
     position: relative;
     display: inline-block;
@@ -64,4 +58,46 @@
     text-align: center;
     width: 100%;
     font-size: 20px;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153332;
+    height: 400px;
+    margin: 1rem 0;
+}
+
+.aboutContainer img {
+    margin: 17rem 0 0 8rem;
+    transform: rotate(-40deg);
+}
+
+.aboutInformation {
+    margin: 3.25rem 6rem 3rem -7rem;
+}
+
+.aboutInformation h2 {
+    font-family: 'Merriweather';
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.aboutInformation p {
+    font-size: 24px;
+    line-height: 1.75rem;
+    margin: 1rem 0;
+}
+
+.aboutInformation button {
+    float: right;
+    background-color: inherit;
+    border: 2px solid var(--off-white);
+    color: var(--off-white);
+    width: 30%;
+    padding: 1rem;
+    font-size: 24px;
+    margin: 2rem;
+    font-family: 'Lato';
 }

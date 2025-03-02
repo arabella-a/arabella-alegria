@@ -28,8 +28,8 @@ export default function ReachOut() {
                     <div className={styles.aboutContainer}>
                         <Image 
                             src={"/reachout-settings.png"}
-                            width={1500}
-                            height={1000}
+                            width={900}
+                            height={700}
                             alt="reachout settings page on laptop mockup"
                         />
                         <div className={styles.aboutInformation}>
