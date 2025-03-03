@@ -22,7 +22,7 @@ export default function MotionGraphics() {
                         />
                         <div className={styles.bannerInformation}>
                             <h3>What to do in a blackout</h3>
-                            <Link href="/pages/NCTDREAM"><p>View Project</p></Link>
+                            <Link href="/pages/WhatToDo"><p>View Project</p></Link>
                          </div>
                     </div>
                     </section>
