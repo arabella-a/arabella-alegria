@@ -194,6 +194,17 @@ export default function ReachOut() {
                             />
                         </div>
                     </section>
+                    <section className={styles.styleGuide}>
+                        <h2>Style Guide</h2>
+                        <div>
+                            <Image 
+                                src={"/Style_Tile2.0.jpg"}
+                                width={1250}
+                                height={750}
+                                alt="reachout style guide"
+                            />
+                        </div>
+                    </section>
                 </main>
             </div>
         </>

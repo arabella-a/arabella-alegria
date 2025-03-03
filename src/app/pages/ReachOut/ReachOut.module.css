@@ -188,7 +188,7 @@
     margin: 5rem 0;
 }
 
-.userFlowContainer h2, .mockupContainer h2 {
+.userFlowContainer h2, .mockupContainer h2, .styleGuide h2 {
     font-family: 'Merriweather';
     font-size: 40px;
     margin: 1rem 0;
@@ -254,4 +254,14 @@
 
 .mockup img {
     margin: 1rem 2rem 2rem 0;
+}
+
+.styleGuide {
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleGuide img {
+    margin: 1rem 0;
 }
