@@ -1,0 +1,24 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    padding: 80px;
+    font-family: 'Lato';
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: var(--off-white);
+    text-align: center;
+}
+
+.main h1 {
+    font-family: 'Lato';
+    font-size: 3rem;
+    margin: 2rem;
+    font-weight: 400;
+}
