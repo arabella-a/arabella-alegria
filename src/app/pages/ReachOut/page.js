@@ -40,7 +40,13 @@ export default function ReachOut() {
                                     fostering community connections, and helping with reintegration into society. 
                                     It aims to create a safe space for growth, empowerment, and second chances.
                                 </p>
-                                <button>View Prototype</button>
+                                <Link 
+                                    href="https://www.figma.com/proto/MfGA57RbqWErt7qTMGdR8c/ReachOut---Design-Draft?node-id=510-2765&t=IQn00SgUxTuOgvyC-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=510%3A2765"
+                                    target="_blank"
+                                    rel="noopener noreferrer "
+                                >
+                                    <button>View Prototype</button>
+                                </Link>
                             </div>
                         </div>
                     </section>
@@ -62,11 +68,12 @@ export default function ReachOut() {
                         />
                     </section>
                     <section className={styles.promoAd}>
-                        <Image 
-                            src={"/reachout-banner.jpeg"}
+                        <video controls
+                            src={"/reachout_commercial_ad.mp4"}
+                            type="video/mp4"
                             width={775}
                             height={400}
-                            alt="placeholder"
+                            alt="reachout promotional ad"
                         />
                         <div className={styles.promoAdInfo}>
                             <h2>Promotional Ad</h2>

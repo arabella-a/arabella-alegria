@@ -105,6 +105,12 @@
     font-size: 24px;
     margin: 2rem;
     font-family: 'Lato';
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.aboutInformation button:hover {
+    background-color: var(--off-white);
+    color: var(--background);
 }
 
 .whoContainer {
