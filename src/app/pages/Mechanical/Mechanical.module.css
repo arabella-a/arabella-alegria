@@ -1,0 +1,73 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-height: 100svh;
+    padding: 80px;
+    flex-shrink: 0;
+    font-family: 'Lato';
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--off-white);
+    margin: 2rem;
+}
+
+.imgContainer {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.4);
+}
+  
+.imgContainer::after {
+    content: "Mechanical";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 12rem;
+    font-weight: bold;
+    font-family: 'against';
+}
+
+.aboutContainer {
+    margin: 1rem;
+}
+
+.aboutContainer h2, .comparisonContainer h2 {
+    font-family: 'Merriweather';
+    font-size: 42px;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.aboutContainer p {
+    font-family: 'Lato';
+    font-size: 24px;
+    line-height: 1.75rem;
+    margin: 0 0 1rem 0;
+}
+
+.comparisonContainer h2 {
+    margin: 0 0 2rem -1rem;
+}
+
+.comparisonContainer img {
+    margin: 0 7.5rem;
+}
