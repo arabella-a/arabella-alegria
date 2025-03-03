@@ -84,6 +84,39 @@ export default function ReachOut() {
                             showing the need for a platform that helps with these challenges and supports reintegration.
                         </p>
                     </section>
+                    <section className={styles.personaContainer}>
+                        <h2>Who we serve</h2>
+                        <div className={styles.personas}>
+                            <div className={styles.lineOne}>
+                                <Image 
+                                    src={"/persona1.jpg"}
+                                    width={350}
+                                    height={450}
+                                    alt="persona 1 first page"
+                                />
+                                <Image 
+                                    src={"/persona2.jpg"}
+                                    width={350}
+                                    height={450}
+                                    alt="persona 1 second page"
+                                />
+                            </div>
+                            <div className={styles.lineTwo}>
+                                <Image 
+                                    src={"/persona3.jpg"}
+                                    width={350}
+                                    height={450}
+                                    alt="persona 2 first page"
+                                />
+                                <Image 
+                                    src={"/persona4.jpg"}
+                                    width={350}
+                                    height={450}
+                                    alt="persona 2 second page"
+                                />
+                            </div>
+                        </div>
+                    </section>
                 </main>
             </div>
         </>

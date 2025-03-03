@@ -141,3 +141,38 @@
     font-family: 'Merriweather';
     font-size: 40px;
 }
+
+.personaContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.personaContainer h2 {
+    font-family: 'Merriweather';
+    margin: 1rem 0;
+    font-size: 40px;
+}
+
+.personas img {
+    margin: 0.75rem;
+}
+
+.personas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lineOne {
+    float: left;
+    display: flex;
+}
+
+.lineTwo {
+    float: right;
+    display: flex;
+}
