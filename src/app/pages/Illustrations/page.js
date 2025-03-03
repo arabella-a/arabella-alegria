@@ -23,7 +23,7 @@ export default function Illustrations() {
                                     />
                                     <div className={styles.bannerInformation}>
                                         <h3>Brush Study</h3>
-                                        <Link href="/pages/NCTDREAM"><p>View Illustration</p></Link>
+                                        <Link href="/pages/BrushStudy"><p>View Illustration</p></Link>
                                     </div>
                             </div>
                             <div className={styles.banner}>
