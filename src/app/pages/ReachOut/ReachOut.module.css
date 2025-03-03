@@ -86,7 +86,8 @@
 .promoAd p, 
 .userResearch p, 
 .matchInfo p,
-.trackingInfo p
+.trackingInfo p,
+.jobMatchInfo p
 {
     font-size: 24px;
     line-height: 1.75rem;
@@ -215,7 +216,7 @@
     font-family: 'Lato';
 }
 
-.matchInfo h3, .trackingInfo h3  {
+.matchInfo h3, .trackingInfo h3, .jobMatchInfo h3  {
     font-size: 32px;
 }
 
@@ -228,4 +229,20 @@
     justify-content: center;
     align-items: center;
     margin: 2rem;
+}
+
+.jobMatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.jobMatchInfo {
+    margin: 1rem;
+}
+
+.jobMatch img {
+    margin: 1rem;
+    transform: rotate(12deg);
 }

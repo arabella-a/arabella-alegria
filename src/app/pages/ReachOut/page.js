@@ -160,6 +160,22 @@ export default function ReachOut() {
                                 alt="reachout application page on laptop mockup"
                             />
                         </div>
+                        <div className={styles.jobMatch}>
+                            <Image 
+                                src={"/reachout-resume.png"}
+                                width={775}
+                                height={600}
+                                alt="reachout resume builder page on laptop mockup"
+                            />
+                            <div className={styles.jobMatchInfo}>
+                                <h3>Resume Builder</h3>
+                                <p>
+                                    Provides flexible options for creating a resume — 
+                                    use AI to generate one by entering your information, build it manually, 
+                                    or upload an existing resume directly from your computer.
+                                </p>
+                            </div>
+                        </div>
                     </section>
                 </main>
             </div>
