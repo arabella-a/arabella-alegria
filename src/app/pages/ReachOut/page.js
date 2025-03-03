@@ -73,6 +73,17 @@ export default function ReachOut() {
                             <p>▶️ Play the video to see our promotional ad! ☺️</p>
                         </div>
                     </section>
+                    <section className={styles.userResearch}>
+                        <h2>User Research</h2>
+                        <p>
+                            Secondary research was done using online articles and reports to help fill in the gaps from primary research, 
+                            focusing on job-search platforms and tools formerly incarcerated individuals need. 
+                            The research showed that formerly incarcerated individuals face problems like not having enough education, skills, or access to technology, 
+                            which makes it hard to find a job. Stigma from society also makes it harder to get stable work. 
+                            The research found that formerly incarcerated individuals need easy access to resources, training, and employers willing to give second chances, 
+                            showing the need for a platform that helps with these challenges and supports reintegration.
+                        </p>
+                    </section>
                 </main>
             </div>
         </>
