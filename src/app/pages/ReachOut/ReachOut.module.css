@@ -161,7 +161,7 @@
 
 .personas {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -175,4 +175,14 @@
 .lineTwo {
     float: right;
     display: flex;
+}
+
+.userFlowContainer {
+    margin: 5rem 0;
+}
+
+.userFlowContainer h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+    margin: 1rem 0;
 }

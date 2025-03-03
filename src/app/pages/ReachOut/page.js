@@ -117,6 +117,15 @@ export default function ReachOut() {
                             </div>
                         </div>
                     </section>
+                    <section className={styles.userFlowContainer}>
+                        <h2>User Flow</h2>
+                        <Image 
+                            src={"/userflow.png"}
+                            width={1300}
+                            height={550}
+                            alt="userflow of reachout on figma"
+                        />
+                    </section>
                 </main>
             </div>
         </>
