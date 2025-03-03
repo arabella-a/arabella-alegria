@@ -81,7 +81,13 @@
     font-size: 40px;
 }
 
-.aboutInformation p, .whoContainer p, .promoAd p, .userResearch p {
+.aboutInformation p, 
+.whoContainer p, 
+.promoAd p, 
+.userResearch p, 
+.matchInfo p,
+.trackingInfo p
+{
     font-size: 24px;
     line-height: 1.75rem;
     margin: 1rem 0;
@@ -185,4 +191,41 @@
     font-family: 'Merriweather';
     font-size: 40px;
     margin: 1rem 0;
+}
+
+.keyFeatures {
+    margin: 1rem;
+    font-family: 'Lato';
+}
+
+.keyFeatures h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+}
+
+.aiMatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.matchInfo {
+    margin: 4rem;
+    font-family: 'Lato';
+}
+
+.matchInfo h3, .trackingInfo h3  {
+    font-size: 32px;
+}
+
+.aiMatch img {
+    margin: 2rem;
+}
+
+.tracking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
 }

@@ -126,6 +126,41 @@ export default function ReachOut() {
                             alt="userflow of reachout on figma"
                         />
                     </section>
+                    <section className={styles.keyFeatures}>
+                        <h2>Key Features</h2>
+                        <div className={styles.aiMatch}>
+                            <Image 
+                                src={"/reachout-matching.png"}
+                                width={650}
+                                height={600}
+                                alt="reachout ai matching page on laptop mockup"
+                            />
+                            <div className={styles.matchInfo}>
+                                <h3>AI-powered Job Matching</h3>
+                                <p>
+                                    Utilises AI to connect individuals with job opportunities that match their skills and experience. 
+                                    Organisers can use the platform to link their clients to suitable job openings, 
+                                    while employers receive applicant matches tailored to their job postings — 
+                                    creating a seamless, three-way connection.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={styles.tracking}>
+                            <div className={styles.trackingInfo}>
+                                <h3>Real-Time Tracking</h3>
+                                <p>
+                                    Enables individuals to follow their job applications from submission to approval, 
+                                    denial, or interview scheduling, keeping them informed every step of the way.
+                                </p>
+                            </div>
+                            <Image 
+                                src={"/reachout-application.png"}
+                                width={650}
+                                height={425}
+                                alt="reachout application page on laptop mockup"
+                            />
+                        </div>
+                    </section>
                 </main>
             </div>
         </>
