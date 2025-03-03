@@ -61,6 +61,18 @@ export default function ReachOut() {
                             alt="reachout inbox page on laptop mockup"
                         />
                     </section>
+                    <section className={styles.promoAd}>
+                        <Image 
+                            src={"/reachout-banner.jpeg"}
+                            width={775}
+                            height={400}
+                            alt="placeholder"
+                        />
+                        <div className={styles.promoAdInfo}>
+                            <h2>Promotional Ad</h2>
+                            <p>▶️ Play the video to see our promotional ad! ☺️</p>
+                        </div>
+                    </section>
                 </main>
             </div>
         </>

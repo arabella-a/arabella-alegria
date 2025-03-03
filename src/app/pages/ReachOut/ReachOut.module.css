@@ -81,7 +81,7 @@
     font-size: 40px;
 }
 
-.aboutInformation p, .whoContainer p {
+.aboutInformation p, .whoContainer p, .promoA p {
     font-size: 24px;
     line-height: 1.75rem;
     margin: 1rem 0;
@@ -115,4 +115,20 @@
 
 .whoContainer img {
     margin: 3rem 1rem;
+}
+
+.promoAd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.promoAd img {
+    margin: 0 3rem 0 0;
+}
+
+.promoAdInfo h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
 }
