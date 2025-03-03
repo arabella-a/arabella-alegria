@@ -177,6 +177,23 @@ export default function ReachOut() {
                             </div>
                         </div>
                     </section>
+                    <section className={styles.mockupContainer}>
+                        <h2>Business Card and Brochure</h2>
+                        <div className={styles.mockup}>
+                            <Image 
+                                src={"/reachout-businesscard.jpg"}
+                                width={550}
+                                height={400}
+                                alt="reachout business card mockup"
+                            />
+                            <Image 
+                                src={"/reachout-brochure.jpg"}
+                                width={550}
+                                height={400}
+                                alt="reachout brochure mockup"
+                            />
+                        </div>
+                    </section>
                 </main>
             </div>
         </>

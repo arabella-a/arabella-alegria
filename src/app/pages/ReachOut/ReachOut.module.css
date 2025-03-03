@@ -188,7 +188,7 @@
     margin: 5rem 0;
 }
 
-.userFlowContainer h2 {
+.userFlowContainer h2, .mockupContainer h2 {
     font-family: 'Merriweather';
     font-size: 40px;
     margin: 1rem 0;
@@ -235,14 +235,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem;
+    margin: 5rem 0;
+    width: 100%;
 }
 
 .jobMatchInfo {
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .jobMatch img {
     margin: 1rem;
     transform: rotate(12deg);
+}
+
+.mockupContainer {
+    margin: 2rem;
+}
+
+.mockup img {
+    margin: 1rem 2rem 2rem 0;
 }
