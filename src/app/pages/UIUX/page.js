@@ -23,7 +23,7 @@ export default function UIUX() {
                                     />
                                     <div className={styles.bannerInformation}>
                                         <h3>DREAMville</h3>
-                                        <Link href="/pages/NCTDREAM"><p>View Project</p></Link>
+                                        <Link href="/pages/UnderConstruction"><p>View Project</p></Link>
                                     </div>
                             </div>
                             <div className={styles.banner}>
@@ -49,7 +49,7 @@ export default function UIUX() {
                                 />
                                 <div className={styles.bannerInformation}>
                                     <h3>HiveFive</h3>
-                                    <Link href="/"><p>View Project</p></Link>
+                                    <Link href="/pages/UnderConstruction"><p>View Project</p></Link>
                                 </div>
                             </div>
                             <div className={styles.banner}>
@@ -61,7 +61,7 @@ export default function UIUX() {
                                 />
                                 <div className={styles.bannerInformation}>
                                     <h3>Exutoire</h3>
-                                    <Link href="/"><p>View Project</p></Link>
+                                    <Link href="/pages/UnderConstruction"><p>View Project</p></Link>
                                 </div>
                             </div>
                         </div>
