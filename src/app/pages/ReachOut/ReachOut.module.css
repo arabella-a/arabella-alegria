@@ -10,10 +10,6 @@
     overflow-x: hidden;
 }
 
-.page p {
-    font-size: var(--body-text);
-}
-  
 .main {
     display: flex;
     flex-direction: column;
@@ -23,91 +19,255 @@
     margin: 2rem;
 }
 
-.main h1 {
-    font-family: 'against';
-    color: var(--off-white);
-    font-size: 92px;
+.imgContainer {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
 }
 
-.banner {
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.4);
+}
+  
+.imgContainer::after {
+    content: "ReachOut";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 14rem;
+    font-weight: bold;
+    font-family: 'against';
+}
+.information ul {
+    list-style: none;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    gap: 25rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+
+.aboutContainer {
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 1rem;
-    padding: 2rem;
-}
-
-.bannerText {
-    transform: translate(17rem, -10rem);
-}
-
-.bannerText p:nth-child(2) {
-    font-weight: 600;
-    margin: 0.75rem 0;
-}
-
-.bannerText p:nth-child(3) {
-    padding: 1rem 0;
-    line-height: 1.30rem;
-}
-
-.bannerText p:nth-child(5) {
-    padding: 3rem 0;
-}
-
-.banner button {
-    background-color: var(--vista-blue);
-    border: none;
-    border-radius: 5px;
-    padding: 1rem;
-    font-size: var(--body-text);
-    font-weight: 600;
+    background-color: #153332;
+    height: 400px;
     margin: 1rem 0;
 }
 
-.banner button:hover {
-    background-color: inherit;
-    border: 2px var(--vista-blue) solid;
-    color: var(--off-white);
+.aboutContainer img {
+    margin: 17rem 0 0 8rem;
+    transform: rotate(-40deg);
 }
 
-.info {
+.aboutInformation {
+    margin: 3.25rem 6rem 3rem -7rem;
+}
+
+.aboutInformation h2 {
+    font-family: 'Merriweather';
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.aboutInformation p, 
+.whoContainer p, 
+.promoAd p, 
+.userResearch p, 
+.matchInfo p,
+.trackingInfo p,
+.jobMatchInfo p
+{
+    font-size: 24px;
+    line-height: 1.75rem;
+    margin: 1rem 0;
+    font-family: 'Lato';
+}
+
+.aboutInformation button {
+    float: right;
+    background-color: inherit;
+    border: 2px solid var(--off-white);
+    color: var(--off-white);
+    width: 30%;
+    padding: 1rem;
+    font-size: 24px;
+    margin: 2rem;
+    font-family: 'Lato';
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.aboutInformation button:hover {
+    background-color: var(--off-white);
+    color: var(--background);
+}
+
+.whoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.whoContainer h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+    margin: 1rem 0;
+}
+
+.whoContainer img {
+    margin: 3rem 1rem;
+}
+
+.promoAd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.promoAd img {
+    margin: 0 3rem 0 0;
+}
+
+.promoAdInfo h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+}
+
+.userResearch {
+    margin: 3rem;
+}
+
+.userResearch h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+}
+
+.personaContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.personaContainer h2 {
+    font-family: 'Merriweather';
+    margin: 1rem 0;
+    font-size: 40px;
+}
+
+.personas img {
+    margin: 0.75rem;
+}
+
+.personas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-}
-
-.paragraphs {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    line-height: 1.30rem;
-}
-
-.paragraphs h2 {
-    margin: 0.75rem 0;
-}
-
-.paragraphs p {
-    margin: 0.75rem 0;
     width: 100%;
 }
 
-.persona img {
-    margin: 0 1rem;
+.lineOne {
+    float: left;
+    display: flex;
+}
+
+.lineTwo {
+    float: right;
+    display: flex;
+}
+
+.userFlowContainer {
+    margin: 5rem 0;
+}
+
+.userFlowContainer h2, .mockupContainer h2, .styleGuide h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+    margin: 1rem 0;
+}
+
+.keyFeatures {
+    margin: 1rem;
+    font-family: 'Lato';
+}
+
+.keyFeatures h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+}
+
+.aiMatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.matchInfo {
+    margin: 4rem;
+    font-family: 'Lato';
+}
+
+.matchInfo h3, .trackingInfo h3, .jobMatchInfo h3  {
+    font-size: 32px;
+}
+
+.aiMatch img {
+    margin: 2rem;
+}
+
+.tracking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.jobMatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    width: 100%;
+}
+
+.jobMatchInfo {
+    margin: 1.5rem;
+}
+
+.jobMatch img {
+    margin: 1rem;
+    transform: rotate(12deg);
+}
+
+.mockupContainer {
+    margin: 2rem;
+}
+
+.mockup img {
+    margin: 1rem 2rem 2rem 0;
+}
+
+.styleGuide {
+    margin: 1rem;
     justify-content: center;
     align-items: center;
 }
 
-.insight, .reco, .features {
-    line-height: 1.50rem;
-    margin-left: 2rem;
-}
-
-.insight span, .reco span, .features span {
-    font-weight: 600;
+.styleGuide img {
+    margin: 1rem 0;
 }
