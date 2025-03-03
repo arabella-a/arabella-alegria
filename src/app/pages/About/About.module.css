@@ -19,12 +19,6 @@
     margin: 2rem;
 }
 
-.main h1 {
-    font-family: 'Merriweather';
-    color: var(--off-white);
-    font-size: var(--h1);
-}
-
 .About {
     display: flex;
     justify-content: center;
@@ -43,13 +37,31 @@
 }
 
 .aboutMe h2 {
-    font-family: 'Lato';
+    font-family: 'Merriweather';
     font-size: var(--h2);
     margin-bottom: 2rem;
 }
 
 .aboutMe p {
     font-family: 'Lato';
-    text-align: justify;
     font-size: var(--body-text);
+    margin: 1rem 0;
+    line-height: 1.75rem;
+    font-size: 24px;
+}
+
+.aboutMe button {
+    background-color: inherit;
+    border: 2px solid var(--off-white);
+    font-family: 'Lato';
+    font-size: 20px;
+    width: 30%;
+    padding: 0.75rem 0;
+    margin: 1rem 0;
+}
+
+.aboutMe button:hover {
+    background-color: var(--off-white);
+    color: var(--background);
+    font-weight: 600;
 }

@@ -69,28 +69,11 @@
     font-size: var(--body-text);
 }
 
-.longLine {
-    background-color: var(--off-white);
-    height: 1px;
-    width: 14.3rem;
-    margin-top: 2px;
-}
-
-.shortLine {
-    background-color: var(--off-white);
-    height: 1px;
-    width: 5rem;
-    margin-top: 2px;
-}
-
-.shorterLine {
-    background-color: var(--off-white);
-    height: 1px;
-    width: 4.25rem;
-    margin-top: 2px;
+.email p, .snsInfo p {
+    border-bottom: 1px solid var(--off-white);
+    padding-bottom: 5px;
 }
 
 .sns {
     display: flex;
-    justify-content: space-around;
 }
