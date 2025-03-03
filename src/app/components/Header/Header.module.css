@@ -6,7 +6,7 @@
     font-size: var(--body-text);
     color: var(--off-white);
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 .Header ul {
