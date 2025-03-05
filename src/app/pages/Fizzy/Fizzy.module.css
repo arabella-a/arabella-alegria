@@ -16,3 +16,131 @@
     color: var(--off-white);
     margin: 2rem;
 }
+
+/*
+
+.imgContainer {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.4);
+}
+  
+.imgContainer::after {
+    content: "fizzy";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20rem;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'against';
+    font-weight: 100;
+}
+
+
+.imgContainer  {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.information ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Lato';
+    flex-wrap: nowrap;
+}
+
+.information li {
+    white-space: nowrap;
+}
+
+.aboutContainer, .experienceContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    margin: 10rem 1rem 0 0;
+}
+
+.aboutInfo, .experienceInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5rem;
+
+}
+
+.aboutContainer img {
+    margin: 1rem 6rem 0 7rem;
+    transform: rotate(15deg);
+}
+
+.aboutInfo h2, .targetMarketInfo h2, .experienceInfo h2 {
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--off-white);
+}
+
+.aboutInfo p, .targetMarketInfo p, .experienceInfo p {
+    font-size: 24px;
+    line-height: 1.75rem;
+    margin: 1rem 0;
+    font-family: 'Lato';
+    color: var(--off-white)
+}
+
+.page span {
+    font-style: italic;
+}
+
+.targetMarketContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.targetMarketInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 2rem 8rem 2rem 5rem;
+}
+
+.targetMarketContainer img {
+    transform: rotate(-15deg);
+    margin: 1rem 8rem 1rem 1rem;
+}
+
+.experienceContainer img {
+    transform: rotate(15deg);
+    margin: 0 8rem 1rem 3.5rem
+}
