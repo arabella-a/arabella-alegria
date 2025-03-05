@@ -100,7 +100,7 @@
     transform: rotate(15deg);
 }
 
-.aboutInfo h2, .targetMarketInfo h2, .experienceInfo h2 {
+.aboutInfo h2, .targetMarketInfo h2, .experienceInfo h2, .dielineContainer h2 {
     font-family: 'Merriweather';
     font-size: 40px;
     font-weight: 600;
@@ -143,4 +143,17 @@
 .experienceContainer img {
     transform: rotate(15deg);
     margin: 0 8rem 1rem 3.5rem
+}
+
+.dielineContainer {
+    width: 100%;
+    margin: 10rem 0;
+}
+
+.dielineImages {
+    margin: 1rem 0;
+}
+
+.dielineContainer img {
+    margin: 2rem 0;
 }

@@ -81,7 +81,30 @@ export default function Fizzy() {
                         </div>
                     </section>
                     <section className={styles.dielineContainer}>
-
+                        <h2>Dielines</h2>
+                        <div className={styles.dielineImages}>
+                            <Image 
+                                src={"/fizzy1.jpg"}
+                                layout="responsive"
+                                width={100}
+                                height={850}
+                                alt="fizzy oceanade berries dieline"
+                            />
+                            <Image 
+                                src={"/fizzy2.jpg"}
+                                layout="responsive"
+                                width={100}
+                                height={850}
+                                alt="fizzy oceanade berries dieline"
+                            />
+                            <Image 
+                                src={"/fizzy3.jpg"}
+                                layout="responsive"
+                                width={100}
+                                height={850}
+                                alt="fizzy oceanade berries dieline"
+                            />
+                        </div>
                     </section>
                 </main>
             </div>
