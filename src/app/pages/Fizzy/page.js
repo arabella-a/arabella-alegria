@@ -106,6 +106,17 @@ export default function Fizzy() {
                             />
                         </div>
                     </section>
+                    <section className={styles.mockupContainer}>
+                        <div className={styles.mockupImages}>
+                            <Image 
+                                    src={"/fizzy3.jpg"}
+                                    layout="responsive"
+                                    width={100}
+                                    height={850}
+                                    alt="fizzy oceanade berries dieline"
+                            />
+                        </div>
+                    </section>
                 </main>
             </div>
         </>
