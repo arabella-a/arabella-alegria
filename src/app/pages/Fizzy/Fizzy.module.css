@@ -100,7 +100,12 @@
     transform: rotate(15deg);
 }
 
-.aboutInfo h2, .targetMarketInfo h2, .experienceInfo h2, .dielineContainer h2 {
+.aboutInfo h2, 
+.targetMarketInfo h2, 
+.experienceInfo h2, 
+.dielineContainer h2, 
+.mockupContainer h2
+{ 
     font-family: 'Merriweather';
     font-size: 40px;
     font-weight: 600;
@@ -145,15 +150,20 @@
     margin: 0 8rem 1rem 3.5rem
 }
 
-.dielineContainer {
+.dielineContainer{
     width: 100%;
     margin: 10rem 0;
 }
 
-.dielineImages {
+.mockupContainer {
+    width: 100%;
     margin: 1rem 0;
 }
 
-.dielineContainer img {
+.dielineImages, .mockupImages {
+    margin: 1rem 0;
+}
+
+.dielineContainer img, .mockupContainer img {
     margin: 2rem 0;
 }
