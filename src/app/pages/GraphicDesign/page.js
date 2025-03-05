@@ -22,7 +22,7 @@ export default function GraphicDesign() {
                             />
                             <div className={styles.bannerInformation}>
                                 <h3>fizzy</h3>
-                                <Link href="/pages/UnderConstruction"><p>View Project</p></Link>
+                                <Link href="/pages/Fizzy"><p>View Project</p></Link>
                             </div>
                         </div>
                         <div className={styles.banner}>
