@@ -136,14 +136,15 @@
 }
 
 .whoContainer img {
-    margin: 3rem 1rem;
+    margin: 3rem -2rem 3rem 0;;
 }
 
 .promoAd {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2rem;
+    margin: 3rem;
+    width: 100%;
 }
 
 .promoAd img {
@@ -155,8 +156,13 @@
     font-size: 40px;
 }
 
+.promoAdInfo {
+    margin: 0 4rem 0 2rem;
+    width: 90%;
+}
+
 .userResearch {
-    margin: 3rem;
+    margin: 6rem;
 }
 
 .userResearch h2 {
