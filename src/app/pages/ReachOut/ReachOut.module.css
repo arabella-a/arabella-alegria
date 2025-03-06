@@ -271,7 +271,16 @@
 }
 
 .mockupContainer {
-    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6rem;
+    width: 100%;
+}
+
+.mockup {
+    display: flex;
+    flex-direction: column;
 }
 
 .mockup img {

@@ -195,12 +195,14 @@ export default function ReachOut() {
                         <div className={styles.mockup}>
                             <Image 
                                 src={"/reachout-businesscard.jpg"}
+                                layout={"responsive"}
                                 width={550}
                                 height={400}
                                 alt="reachout business card mockup"
                             />
                             <Image 
                                 src={"/reachout-brochure.jpg"}
+                                layout={"responsive"}
                                 width={550}
                                 height={400}
                                 alt="reachout brochure mockup"
