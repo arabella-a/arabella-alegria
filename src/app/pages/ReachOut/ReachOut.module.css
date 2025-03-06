@@ -47,30 +47,32 @@
     position: relative;
     display: inline-block;
     transform: scale(90%);
-    justify-content: center;
-    align-items: center;
     width: 100%;
 }
 
 .information ul {
-    list-style: none;
     display: flex;
-    justify-content: space-between;
-    gap: 25rem;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
+    list-style: none;
     width: 100%;
+    gap: 16rem;
     font-size: 20px;
-    font-family: 'Lato';
+
 }
 
-.aboutContainer {
+.aboutContainer{
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 350px;
+    margin: 2rem 1rem 0 0;
     background-color: #153332;
-    height: 400px;
-    margin: 1rem 0;
+    width: 95%;
+    padding: 0;
 }
 
 .aboutContainer img {
@@ -124,7 +126,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem;
+    margin: 6rem 8rem;
 }
 
 .whoContainer h2 {
