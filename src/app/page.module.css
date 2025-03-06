@@ -98,13 +98,17 @@
 }
 
 .recentProjects {
+  display: flex;
+  flex-direction: column;
   padding: 80px;
+  width: 100%;
 }
 
 .recentCard {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1400px;
 }
 
 .recentCard img {
@@ -145,4 +149,10 @@ margin: 2rem 0;
   padding-bottom: 2px;
   font-family: 'Lato';
   margin-top: 2rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
