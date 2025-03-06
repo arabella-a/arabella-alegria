@@ -2,11 +2,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     font-family: 'Lato', sans-serif;
     font-size: var(--body-text);
     color: var(--off-white);
-    margin: 0 auto;
-    padding: 0;
+    z-index: 9999;
+}
+
+.headerContainer {
+    position: fixed;
+    width: 100%;
+    background-color: var(--background);
+    top: 0;
+    margin: 0;
+    border-bottom: 0.75px solid var(--off-white);
 }
 
 .Header ul {
@@ -17,10 +26,16 @@
     padding: 0;
 }
 
-.categories li{
+.categories li {
     list-style: none;
     margin: 1rem;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
+
 
 .categories li:hover {
     color: var(--mimi-pink);
