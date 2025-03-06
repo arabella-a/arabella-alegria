@@ -78,7 +78,11 @@ export default function ReachOut() {
                         />
                         <div className={styles.promoAdInfo}>
                             <h2>Promotional Ad</h2>
-                            <p>▶️ Play the video to see our promotional ad! ☺️</p>
+                            <p>
+                                Meet Timothy! 
+                                See how ReachOut can help Timmy who is a formerly incarcerated 
+                                individual who is looking to find a way to meet his daughter.
+                            </p>
                         </div>
                     </section>
                     <section className={styles.userResearch}>
