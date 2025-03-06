@@ -133,6 +133,7 @@ export default function ReachOut() {
                         <h2>User Flow</h2>
                         <Image 
                             src={"/userflow.png"}
+                            layout={"responsive"}
                             width={1300}
                             height={550}
                             alt="userflow of reachout on figma"
