@@ -9,20 +9,12 @@
     font-family: 'Lato';
     overflow-x: hidden;
 }
-
+  
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: var(--off-white);
     margin: 2rem;
-}
-
-.imgContainer {
-    position: relative;
-    display: inline-block;
-    margin: 1rem auto;
 }
 
 .overlay {
@@ -42,9 +34,23 @@
     transform: translateX(-50%);
     color: white;
     font-size: 14rem;
+    padding: 10px;
     font-weight: bold;
     font-family: 'against';
+    font-weight: 100;
 }
+
+
+.imgContainer  {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 5;
+}
+
 .information ul {
     list-style: none;
     display: flex;

@@ -11,14 +11,16 @@ export default function Header() {
     return (
         <section className={styles.headerContainer}>
             <div className={styles.Header}>
-                <Link href="/">
-                    <Image
-                        src="/arabella_alegria_logo.svg"
-                        width={60}
-                        height={60}
-                        alt="arabella's logo"
-                    />
-                </Link>
+                <div className={styles.logo}>
+                    <Link href="/">
+                        <Image
+                            src="/arabella_alegria_logo.svg"
+                            width={60}
+                            height={60}
+                            alt="arabella's logo"
+                        />
+                    </Link>
+                </div>
                 <div className={styles.categories}>
                     <ul>
                         <li className={pathname === "/pages/GraphicDesign" ? styles.active : ""}>

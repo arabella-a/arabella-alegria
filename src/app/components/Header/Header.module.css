@@ -1,3 +1,12 @@
+.headerContainer {
+    background-color: var(--background);
+    border-bottom: 0.75px solid var(--off-white);
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding: 10px;
+}
+
 .Header {
     display: flex;
     flex-direction: row;
@@ -6,16 +15,7 @@
     font-family: 'Lato', sans-serif;
     font-size: var(--body-text);
     color: var(--off-white);
-    z-index: 9999;
-}
-
-.headerContainer {
-    position: fixed;
-    width: 100%;
     background-color: var(--background);
-    top: 0;
-    margin: 0;
-    border-bottom: 0.75px solid var(--off-white);
 }
 
 .Header ul {
@@ -26,17 +26,15 @@
     padding: 0;
 }
 
-.categories li {
+.categories li{
     list-style: none;
     margin: 1rem;
-    background-color: var(--background);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
 }
-
 
 .categories li:hover {
     color: var(--mimi-pink);
+}
+
+.logo {
+    margin: 0 1rem;
 }

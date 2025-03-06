@@ -12,7 +12,8 @@ export default function ReachOut() {
                     <div className={styles.imgContainer}>
                         <Image 
                             src="/reachout-banner.jpeg"
-                            width={1450}
+                            layout="responsive"
+                            width={100}
                             height={850}
                             alt="reachout on laptop mockup with white background"
                         />
