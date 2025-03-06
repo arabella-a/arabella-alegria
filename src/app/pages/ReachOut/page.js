@@ -214,6 +214,7 @@ export default function ReachOut() {
                         <div>
                             <Image 
                                 src={"/Style_Tile2.0.jpg"}
+                                layout={"responsive"}
                                 width={1250}
                                 height={750}
                                 alt="reachout style guide"
