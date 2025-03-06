@@ -36,83 +36,85 @@ export default function Home() {
       </div>
       <section className={styles.recentProjects}>
         <h2>Recent Projects</h2>
-        <div className={styles.recentCard}>
-          <div className={styles.projText}>
-            <div className={styles.projectType}>
-              <div className={styles.circle}></div>
-              <p>UI/UX Design — 2024</p>
+        <div className={styles.cardContainer}>
+          <div className={styles.recentCard}>
+            <div className={styles.projText}>
+              <div className={styles.projectType}>
+                <div className={styles.circle}></div>
+                <p>UI/UX Design — 2024</p>
+              </div>
+              <div className={styles.projectDesc}>
+                <h3>ReachOut — Web App</h3>
+                <p>
+                  ReachOut supports formerly incarcerated individuals by offering resources, building community, and aiding reintegration — a space for growth, empowerment, and second chances.
+                </p>
+              </div>
+              <Link href="/pages/ReachOut">
+                <button className={styles.viewBtn}>
+                  View Project 
+                  <span> &#8599;</span>
+                </button>
+              </Link>
             </div>
-            <div className={styles.projectDesc}>
-              <h3>ReachOut — Web App</h3>
-              <p>
-                ReachOut supports formerly incarcerated individuals by offering resources, building community, and aiding reintegration — a space for growth, empowerment, and second chances.
-              </p>
-            </div>
-            <Link href="/pages/ReachOut">
-              <button className={styles.viewBtn}>
-                View Project 
-                <span> &#8599;</span>
-              </button>
-            </Link>
+            <Image 
+              src={"/reachoutlaptop.jpg"}
+              width={600}
+              height={400}
+              alt="reachout website on laptop mockup"
+            />
           </div>
-          <Image 
-            src={"/reachoutlaptop.jpg"}
-            width={600}
-            height={400}
-            alt="reachout website on laptop mockup"
-          />
-        </div>
-        <div className={styles.recentCard}>
-          <div className={styles.projText}>
-            <div className={styles.projectType}>
-              <div className={styles.circle}></div>
-              <p>Graphic Design — 2024</p>
+          <div className={styles.recentCard}>
+            <div className={styles.projText}>
+              <div className={styles.projectType}>
+                <div className={styles.circle}></div>
+                <p>Graphic Design — 2024</p>
+              </div>
+              <div className={styles.projectDesc}>
+                <h3>fizzy — Branding</h3>
+                <p>
+                  fizzy is a sparkling aid series with flavours like berries, lemon hibiscus, and grapes. With a playful design, it is perfect from morning to midnight — a delightful burst of flavour for any occasion.
+                </p>
+              </div>
+              <Link href="/pages/Fizzy">
+                <button className={styles.viewBtn}>
+                  View Project 
+                  <span> &#8599;</span>
+                </button>
+              </Link>
             </div>
-            <div className={styles.projectDesc}>
-              <h3>fizzy — Branding</h3>
-              <p>
-                fizzy is a sparkling aid series with flavours like berries, lemon hibiscus, and grapes. With a playful design, it is perfect from morning to midnight — a delightful burst of flavour for any occasion.
-              </p>
-            </div>
-            <Link href="/pages/Fizzy">
-              <button className={styles.viewBtn}>
-                View Project 
-                <span> &#8599;</span>
-              </button>
-            </Link>
+            <Image 
+              src={"/threecans-rectangular.jpg"}
+              width={600}
+              height={400}
+              alt="three cans of fizzy flavours mockup"
+            />
           </div>
-          <Image 
-            src={"/threecans-rectangular.jpg"}
-            width={600}
-            height={400}
-            alt="three cans of fizzy flavours mockup"
-          />
-        </div>
-        <div className={styles.recentCard}>
-          <div className={styles.projText}>
-            <div className={styles.projectType}>
-              <div className={styles.circle}></div>
-              <p>Graphic Design — 2024</p>
+          <div className={styles.recentCard}>
+            <div className={styles.projText}>
+              <div className={styles.projectType}>
+                <div className={styles.circle}></div>
+                <p>Graphic Design — 2024</p>
+              </div>
+              <div className={styles.projectDesc}>
+                <h3>aespa — Poster</h3>
+                <p>
+                  A concept poster for aespa's Japanese single, Hot Mess, drawing inspiration from Y2K Japanese magazine covers.
+                </p>
+              </div>
+              <Link href="/pages/Ningning">
+                <button className={styles.viewBtn}>
+                  View Project 
+                  <span> &#8599;</span>
+                </button>
+              </Link>
             </div>
-            <div className={styles.projectDesc}>
-              <h3>aespa — Poster</h3>
-              <p>
-                A concept poster for aespa's Japanese single, Hot Mess, drawing inspiration from Y2K Japanese magazine covers.
-              </p>
-            </div>
-            <Link href="/pages/Ningning">
-              <button className={styles.viewBtn}>
-                View Project 
-                <span> &#8599;</span>
-              </button>
-            </Link>
+            <Image 
+              src={"/aespa-rectangular.jpg"}
+              width={600}
+              height={400}
+              alt="three cans of fizzy flavours mockup"
+            />
           </div>
-          <Image 
-            src={"/aespa-rectangular.jpg"}
-            width={600}
-            height={400}
-            alt="three cans of fizzy flavours mockup"
-          />
         </div>
       </section>
       </main>
