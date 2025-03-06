@@ -68,23 +68,6 @@ export default function ReachOut() {
                             alt="reachout inbox page on laptop mockup"
                         />
                     </section>
-                    <section className={styles.promoAd}>
-                        <video controls
-                            src={"/reachout_commercial_ad.mp4"}
-                            type="video/mp4"
-                            width={775}
-                            height={400}
-                            alt="reachout promotional ad"
-                        />
-                        <div className={styles.promoAdInfo}>
-                            <h2>Promotional Ad</h2>
-                            <p>
-                                Meet Timothy! 
-                                See how ReachOut can help Timmy who is a formerly incarcerated 
-                                individual who is looking to find a way to meet his daughter.
-                            </p>
-                        </div>
-                    </section>
                     <section className={styles.userResearch}>
                         <h2>User Research</h2>
                         <p>
@@ -95,6 +78,18 @@ export default function ReachOut() {
                             The research found that formerly incarcerated individuals need easy access to resources, training, and employers willing to give second chances, 
                             showing the need for a platform that helps with these challenges and supports reintegration.
                         </p>
+                    </section>
+                    <section className={styles.styleGuide}>
+                        <h2>Style Guide</h2>
+                        <div>
+                            <Image 
+                                src={"/Style_Tile2.0.jpg"}
+                                layout={"responsive"}
+                                width={1250}
+                                height={750}
+                                alt="reachout style guide"
+                            />
+                        </div>
                     </section>
                     <section className={styles.personaContainer}>
                         <h2>Who we serve</h2>
@@ -209,16 +204,21 @@ export default function ReachOut() {
                             />
                         </div>
                     </section>
-                    <section className={styles.styleGuide}>
-                        <h2>Style Guide</h2>
-                        <div>
-                            <Image 
-                                src={"/Style_Tile2.0.jpg"}
-                                layout={"responsive"}
-                                width={1250}
-                                height={750}
-                                alt="reachout style guide"
-                            />
+                    <section className={styles.promoAd}>
+                        <video controls
+                            src={"/reachout_commercial_ad.mp4"}
+                            type="video/mp4"
+                            width={775}
+                            height={400}
+                            alt="reachout promotional ad"
+                        />
+                        <div className={styles.promoAdInfo}>
+                            <h2>Promotional Ad</h2>
+                            <p>
+                                Meet Timothy! 
+                                See how ReachOut can help Timmy who is a formerly incarcerated 
+                                individual who is looking to find a way to meet his daughter.
+                            </p>
                         </div>
                     </section>
                 </main>
