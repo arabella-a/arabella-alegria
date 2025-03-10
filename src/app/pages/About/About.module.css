@@ -39,13 +39,13 @@
 }
 
 .aboutMe h2 {
-    font-family: 'Merriweather';
+    font-family: var(--header-font);
     font-size: var(--h2);
     margin-bottom: 2rem;
 }
 
 .aboutMe p {
-    font-family: 'Lato';
+    font-family: var(--regular-font);
     font-size: var(--body-text);
     line-height: 1.75rem;
     font-size: 24px;
@@ -54,7 +54,7 @@
 .aboutMe button {
     background-color: inherit;
     border: 2px solid var(--off-white);
-    font-family: 'Lato';
+    font-family: var(--regular-font);
     font-size: 20px;
     width: 30%;
     padding: 0.75rem 0;
