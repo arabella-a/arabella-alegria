@@ -6,7 +6,7 @@
     min-height: 100svh;
     padding: 80px;
     flex-shrink: 0;
-    font-family: 'Lato';
+    font-family: var(--regular-font);
 }
   
 .main {
@@ -99,7 +99,7 @@
 }
 
 .gallery h3 {
-    font-family: 'Merriweather';
+    font-family: var(--header-font);
     margin: 3rem 0 0 0;
 }
 
