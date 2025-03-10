@@ -10,7 +10,7 @@
     background-size: 3600px 2000px;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Lato';
+    font-family: var(--regular-font);
 }
   
 .main {
@@ -24,7 +24,7 @@
 }
 
 .main h1 {
-    font-family: 'Merriweather';
+    font-family: var(--header-font);
     color: var(--off-white);
     font-size: var(--h1);
 }

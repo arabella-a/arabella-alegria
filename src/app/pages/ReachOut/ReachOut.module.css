@@ -6,8 +6,12 @@
     min-height: 100svh;
     padding: 80px;
     flex-shrink: 0;
-    font-family: 'Lato';
+    font-family: var(--regular-font);
     overflow-x: hidden;
+}
+
+.main h2 {
+    font-family: var(--header-font);
 }
   
 .main {
@@ -85,7 +89,6 @@
 }
 
 .aboutInformation h2 {
-    font-family: 'Merriweather';
     font-weight: 600;
     font-size: 40px;
 }
@@ -101,7 +104,6 @@
     font-size: 24px;
     line-height: 1.75rem;
     margin: 1rem 0;
-    font-family: 'Lato';
 }
 
 .aboutInformation button {
@@ -113,7 +115,7 @@
     padding: 1rem;
     font-size: 24px;
     margin: 2rem;
-    font-family: 'Lato';
+    font-family: var(--regular-font);
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -130,7 +132,6 @@
 }
 
 .whoContainer h2 {
-    font-family: 'Merriweather';
     font-size: 40px;
     margin: 1rem 0;
 }
@@ -152,7 +153,6 @@
 }
 
 .promoAdInfo h2 {
-    font-family: 'Merriweather';
     font-size: 40px;
 }
 
@@ -166,7 +166,6 @@
 }
 
 .userResearch h2 {
-    font-family: 'Merriweather';
     font-size: 40px;
 }
 
@@ -179,7 +178,6 @@
 }
 
 .personaContainer h2 {
-    font-family: 'Merriweather';
     margin: 1rem 0;
     font-size: 40px;
 }
@@ -211,18 +209,15 @@
 }
 
 .userFlowContainer h2, .styleGuide h2 {
-    font-family: 'Merriweather';
     font-size: 40px;
     margin: 1rem 0;
 }
 
 .keyFeatures {
     margin: 1rem 6rem;
-    font-family: 'Lato';
 }
 
 .keyFeatures h2 {
-    font-family: 'Merriweather';
     font-size: 40px;
 }
 
@@ -235,7 +230,6 @@
 
 .matchInfo {
     margin: 4rem;
-    font-family: 'Lato';
 }
 
 .matchInfo h3, .trackingInfo h3, .jobMatchInfo h3  {
@@ -278,7 +272,6 @@
 }
 
 .mockupContainer h2 {
-    font-family: 'Merriweather';
     font-size: 40px;
     margin: 1rem 6rem;
 }
