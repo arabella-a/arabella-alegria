@@ -14,11 +14,11 @@
     flex-direction: column;
     color: var(--off-white);
     margin: 2rem;
-    font-family: 'Lato';
+    font-family: var(--regular-font);
 }
 
 .main h1 {
-    font-family: 'Merriweather';
+    font-family: var(--header-font);
     color: var(--off-white);
     font-size: var(--h1);
 }
