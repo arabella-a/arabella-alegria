@@ -11,6 +11,8 @@
   --mimi-pink: #F5CFE9;
   --thristle: #B9B0D6;
   --vista-blue: #809BC4;
+  --regular-font: 'Lato';
+  --header-font: 'Merriweather';
 }
 
 @font-face {
