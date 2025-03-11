@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
 :root {
   --background: #090909;
   --foreground: #090909;
@@ -11,8 +14,8 @@
   --mimi-pink: #F5CFE9;
   --thristle: #B9B0D6;
   --vista-blue: #809BC4;
-  --regular-font: 'Lato';
-  --header-font: 'Merriweather';
+  --regular-font: 'Lato', serif;
+  --header-font: 'Merriweather', sans-serif;
 }
 
 @font-face {
@@ -26,10 +29,6 @@
     --foreground: #ededed;
   }
 }
-
-@import url(
-  'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'
-);
 
 html,
 body {
