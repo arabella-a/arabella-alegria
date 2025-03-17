@@ -76,7 +76,7 @@
     background-color: #dc649e
 }
 
-.aboutContainer h2 {
+.aboutContainer h2, .posterVersions h2, .mockup h2 {
     font-weight: 600;
     font-size: 40px;
 }
@@ -100,4 +100,13 @@
 
 .imagesContainer img {
     margin: 0 7rem;
+}
+
+.mockup {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.mockup img {
+    margin: 2rem 0;
 }
