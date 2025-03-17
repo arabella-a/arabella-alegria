@@ -19,7 +19,13 @@ export default function Ningning() {
                         <div className={styles.overlay}></div>
                     </div>
                     <section className={styles.about}>
-
+                        <div className={styles.information}>
+                            <ul>
+                                <li>Adobe Photoshop & Illustrator</li>
+                                <li>Graphic Design</li>
+                                <li>November 2024</li>
+                            </ul>
+                        </div>
                     </section>
                 </main>
             </div>
