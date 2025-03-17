@@ -26,6 +26,22 @@ export default function Ningning() {
                                 <li>November 2024</li>
                             </ul>
                         </div>
+                        <div className={styles.aboutContainer}>
+                            <Image 
+                            src={"/ningning_banner.png"}
+                            width={425}
+                            height={500}
+                            alt="ningning poster in a packaging"
+                            />
+                            <div>
+                                <h2>About Poster</h2>
+                                <p>
+                                    A poster designed as a creative take on aespa's single,<span>Hot Mess</span>. 
+                                    Its design takes inspiration from Y2K Japanese magazines in honour of aespa's Japanese debut.
+                                    As the single is released in Japan, both English and Katakana are featured to ensure that the poster is still understood globally.
+                                </p>
+                            </div>
+                        </div>
                     </section>
                 </main>
             </div>
