@@ -79,6 +79,15 @@ export default function ReachOut() {
                             showing the need for a platform that helps with these challenges and supports reintegration.
                         </p>
                     </section>
+                    <section className={styles.compAnalysis}>
+                        <h2>Competitive Analysis</h2>
+                        <p>
+                            ReachOut competes with organizations like 211, Hope for Prisoners, Center for Employment Opportunities, John Howard Society, Opex Emploi, and GOSO, 
+                            which help formerly incarcerated individuals find jobs through training and support.
+                            What makes ReachOut different is its AI-powered platform, which connects individuals to job opportunities based on their skills, 
+                            tracks job applications in real time, and provides easy resume-building tools for a smoother job search experience.
+                        </p>
+                    </section>
                     <section className={styles.styleGuide}>
                         <h2>Style Guide</h2>
                         <div>
