@@ -36,7 +36,7 @@ export default function Ningning() {
                             <div>
                                 <h2>About Poster</h2>
                                 <p>
-                                    A poster designed as a creative take on aespa's single,<span>Hot Mess</span>. 
+                                    A poster designed as a creative take on aespa's single, <span>Hot Mess</span>. 
                                     Its design takes inspiration from Y2K Japanese magazines in honour of aespa's Japanese debut.
                                     As the single is released in Japan, both English and Katakana are featured to ensure that the poster is still understood globally.
                                 </p>
@@ -61,6 +61,7 @@ export default function Ningning() {
                         </div>
                     </section>
                     <section className={styles.mockup}>
+                        <h2>Mockups</h2>
                         <Image 
                             src={"/ningning_poster_wall.jpg"}
                             layout="responsive"
