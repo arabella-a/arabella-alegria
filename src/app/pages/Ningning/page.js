@@ -8,51 +8,74 @@ export default function Ningning() {
             <div className={styles.page}>
                 <Header />
                 <main className={styles.main}>
-                    <div className={styles.banner}>
-                        <div className={styles.bannerText}>
-                            <h1>aespa NINGNING</h1>
-                            <p>Adobe Photoshop | Adobe Illustrator</p>
-                            <p>
-                                With aespa's highly anticipated launch, individual posters are the perfect way to promote their Japanese single, <span>Hot Mess</span>!  
-                                Its design takes inspiration from iconic Y2K Japanese magazine covers, paying tribute to the release of their Japanese debut. 
-                                All elements in this poster are thought thoroughly. From its colours to the languages used. 
-                                All elements of this poster have been thoughtfully considered, from the colors to the languages used. 
-                                aespa's signature colors are incorporated to reinforce their branding, alongside their name on the poster.
-                                Since this will be released to the Japanese public, both English and Katakana are featured.
-                            </p>
+                    <div className={styles.imgContainer}>
+                        <Image 
+                            src={"/ningning_poster_wall.jpg"}
+                            layout="responsive"
+                            width={100}
+                            height={850}
+                            alt="ningning poster on a wall"
+                        />
+                        <div className={styles.overlay}></div>
+                    </div>
+                    <section className={styles.about}>
+                        <div className={styles.information}>
+                            <ul>
+                                <li>Adobe Photoshop & Illustrator</li>
+                                <li>Graphic Design</li>
+                                <li>November 2024</li>
+                            </ul>
                         </div>
-                        <div>
+                        <div className={styles.aboutContainer}>
                             <Image 
-                                src="/ningning_poster_banner.png"
-                                width={1000}
-                                height={765}
-                                alt="ningning's poster in a tilted frame"
+                            src={"/ningning_banner.png"}
+                            width={425}
+                            height={500}
+                            alt="ningning poster in a packaging"
+                            />
+                            <div>
+                                <h2>About Poster</h2>
+                                <p>
+                                    A poster designed as a creative take on aespa's single, <span>Hot Mess</span>. 
+                                    Its design takes inspiration from Y2K Japanese magazines in honour of aespa's Japanese debut.
+                                    As the single is released in Japan, both English and Katakana are featured to ensure that the poster is still understood globally.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section className={styles.posterVersions}>
+                        <h2>Poster Versions</h2>
+                        <div className={styles.imagesContainer}>
+                            <Image 
+                                src={"/ningning_poster_withfold.jpg"}
+                                width={450}
+                                height={580}
+                                alt="ningning poster normal with fold"
+                            />
+                            <Image 
+                                src={"/ningning_poster_nofold.jpg"}
+                                width={450}
+                                height={580}
+                                alt="ningning poster without fold"
                             />
                         </div>
-                    </div>
-                    <p className={styles.scroll}>Scroll down to see how it fits into the real world! <span>&#8595;</span></p>
-                    <section className={styles.gallery}>
-                        <h3>Real-Life Scenarios</h3>
-                        <p>
-                            Here's the poster on a wall where people often pass by. 
-                            With its bright and fun look, it's hard to miss! &#40; Even the dog seems to like it 🫣 &#41;
-                        </p>
-                        <Image
-                            src="/ningning_poster_wall.jpg"
-                            width={3000}
-                            height={2000}
-                            alt="ninging's poster on a wall"
-                        />
-                        <p>
-                            This poster isn't just wall-friendly—it's perfect for OOH &#40; Out of Home advertising &#41; spaces too. 
-                            In the busy streets, this poster is eye-catching! 
-                        </p>
-                        <Image
-                            src="/ningning_poster_billboard.jpg"
-                            width={3000}
-                            height={2000}
-                            alt="ninging's poster on a billboard outside a building"
-                        />
+                    </section>
+                    <section className={styles.mockup}>
+                        <h2>Mockups</h2>
+                        <Image 
+                            src={"/ningning_poster_wall.jpg"}
+                            layout="responsive"
+                            width={850}
+                            height={580}
+                            alt="ningning poster on a wall"
+                        /> 
+                        <Image 
+                            src={"/ningning_poster_billboard.jpg"}
+                            layout="responsive"
+                            width={850}
+                            height={580}
+                            alt="ningning poster on a wall"
+                        /> 
                     </section>
                 </main>
             </div>
