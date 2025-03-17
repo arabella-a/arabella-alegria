@@ -34,7 +34,7 @@ export default function NCTDREAM() {
                                 height={300}
                                 alt="dreamville landing page on mac mockup"
                             />
-                            <div>
+                            <div className={styles.aboutInfo}>
                                 <h2>About DREAMville</h2>
                                 <p>
                                     DREAMville is designed to celebrate the journey and achievements of NCT DREAM. 
@@ -60,7 +60,7 @@ export default function NCTDREAM() {
                                 alt="dreamville discography page"
                             />
                             <div className={styles.discInfo}>
-                                <h2>Discography</h2>
+                                <h3>Discography</h3>
                                 <p>
                                     To help fans explore more of NCT DREAM's music, their discography is ogranized by year. 
                                     Each album cover is linked to its respective album on Spotify, so fans can easily access and enjoy their music.
@@ -69,7 +69,7 @@ export default function NCTDREAM() {
                         </div>
                         <div className={styles.profileContainer}>
                             <div className={styles.profileInfo}>
-                                <h2>Profiles</h2>
+                                <h3>Profiles</h3>
                                 <p>
                                     Each members information is provided, with their username linking to their Instagram page.
                                 </p>
