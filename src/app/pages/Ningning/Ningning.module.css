@@ -87,6 +87,10 @@
     margin: 1rem 0;
 }
 
+.aboutContainer span {
+    font-style: italic;
+}
+
 .posterVersions {
     width: 100%;
     align-items: center;
