@@ -39,6 +39,13 @@ export default function NCTDREAM() {
                                     DREAMville is designed to celebrate the journey and achievements of NCT DREAM. 
                                     By highlighting their history and music, DREAMville aims to introduce NCT DREAM to both new fans and long-time fans alike.
                                 </p>
+                                <Link 
+                                    href="https://aalegria-midterm.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <button>View Website</button>
+                                </Link>
                             </div>
                         </div>
                     </section>
