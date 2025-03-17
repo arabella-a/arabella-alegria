@@ -99,7 +99,8 @@
 .userResearch p, 
 .matchInfo p,
 .trackingInfo p,
-.jobMatchInfo p
+.jobMatchInfo p,
+.compAnalysis p
 {
     font-size: 24px;
     line-height: 1.75rem;
@@ -208,7 +209,7 @@
     margin: 5rem 6rem;
 }
 
-.userFlowContainer h2, .styleGuide h2 {
+.userFlowContainer h2, .styleGuide h2, .compAnalysis h2 {
     font-size: 40px;
     margin: 1rem 0;
 }
@@ -293,4 +294,8 @@
 
 .styleGuide img {
     margin: 1rem 0 8rem 0;
+}
+
+.compAnalysis {
+    margin: 0 6.5rem 4rem 6.5rem;
 }
