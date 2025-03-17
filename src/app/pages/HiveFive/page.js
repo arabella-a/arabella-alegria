@@ -47,10 +47,17 @@ export default function HiveFive() {
                                 >
                                     <button>View Web App</button>
                                 </Link>
+                                <Link
+                                    href="https://hivefive-a5styleguide.vercel.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <button>View Style Guide</button>
+                                </Link>
                             </div>
                         </div>
                     </section>
-                    <section className={styles.highlightsContainer}>
+                    <section className={styles.styleguideContainer}>
 
                     </section>
                 </main>
