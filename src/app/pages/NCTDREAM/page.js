@@ -1,6 +1,7 @@
 import styles from "./nctDream.module.css";
 import Header from "@/app/components/Header/Header";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NCTDREAM() {
     return (
@@ -47,6 +48,38 @@ export default function NCTDREAM() {
                                     <button>View Website</button>
                                 </Link>
                             </div>
+                        </div>
+                    </section>
+                    <section className={styles.highlightsContainer}>
+                        <h2>Key Features</h2>
+                        <div className={styles.discographyContainer}>
+                            <Image 
+                                src={"/nctdream_discography.png"}
+                                width={500}
+                                height={525}
+                                alt="dreamville discography page"
+                            />
+                            <div className={styles.discInfo}>
+                                <h2>Discography</h2>
+                                <p>
+                                    To help fans explore more of NCT DREAM's music, their discography is ogranized by year. 
+                                    Each album cover is linked to its respective album on Spotify, so fans can easily access and enjoy their music.
+                                </p>
+                            </div>
+                        </div>
+                        <div className={styles.profileContainer}>
+                            <div className={styles.profileInfo}>
+                                <h2>Profiles</h2>
+                                <p>
+                                    Each members information is provided, with their username linking to their Instagram page.
+                                </p>
+                            </div>
+                            <Image 
+                                src={"/nctdream_profiles.png"}
+                                width={500}
+                                height={525}
+                                alt="dreamville profiels page"
+                            />
                         </div>
                     </section>
                 </main>
