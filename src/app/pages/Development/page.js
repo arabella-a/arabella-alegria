@@ -49,7 +49,7 @@ export default function Development() {
                                 />
                                 <div className={styles.bannerInformation}>
                                     <h3>HiveFive</h3>
-                                    <Link href="/pages/UnderConstruction"><p>View Project</p></Link>
+                                    <Link href="/pages/HiveFive"><p>View Project</p></Link>
                                 </div>
                             </div>
                         </div>
