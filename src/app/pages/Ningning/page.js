@@ -43,6 +43,23 @@ export default function Ningning() {
                             </div>
                         </div>
                     </section>
+                    <section className={styles.posterVersions}>
+                        <h2>Poster Versions</h2>
+                        <div className={styles.imagesContainer}>
+                            <Image 
+                                src={"/ningning_poster_withfold.jpg"}
+                                width={450}
+                                height={580}
+                                alt="ningning poster normal with fold"
+                            />
+                            <Image 
+                                src={"/ningning_poster_nofold.jpg"}
+                                width={450}
+                                height={580}
+                                alt="ningning poster without fold"
+                            />
+                        </div>
+                    </section>
                 </main>
             </div>
         </>
