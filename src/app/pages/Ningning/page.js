@@ -60,6 +60,22 @@ export default function Ningning() {
                             />
                         </div>
                     </section>
+                    <section className={styles.mockup}>
+                        <Image 
+                            src={"/ningning_poster_wall.jpg"}
+                            layout="responsive"
+                            width={850}
+                            height={580}
+                            alt="ningning poster on a wall"
+                        /> 
+                        <Image 
+                            src={"/ningning_poster_billboard.jpg"}
+                            layout="responsive"
+                            width={850}
+                            height={580}
+                            alt="ningning poster on a wall"
+                        /> 
+                    </section>
                 </main>
             </div>
         </>
