@@ -73,34 +73,34 @@ export default function HiveFive() {
                                     offering an engaging and interactive way to explore and learn more about bees.
                                 </p>
                             </div>
-                            <div className={styles.articlesContainer}>
-                                <div className={styles.articlesInfo}>
-                                    <h3>Articles</h3>
-                                    <p>
-                                        The articles page displays the latest articles, with options to filter and search for specific topics related to bees.
-                                    </p>
-                                </div>
-                                <Image 
-                                    src={"/hivefive_articles.png"}
-                                    width={150}
-                                    height={475}
-                                    alt="screen mockup of hivefive's article page"
-                                />
+                        </div>
+                        <div className={styles.articlesContainer}>
+                            <div className={styles.articlesInfo}>
+                                <h3>Articles</h3>
+                                <p>
+                                    The articles page displays the latest articles, with options to filter and search for specific topics related to bees.
+                                </p>
                             </div>
-                            <div className={styles.matchingContainer}>
-                                <Image 
-                                    src={"/hivefive_matching.png"}
-                                    width={420}
-                                    height={650}
-                                    alt="screen mockup of hivefive's matching pages"
-                                />
-                                <div className={styles.matchingInfo}>
-                                    <h2>Matching</h2>
-                                    <p>
-                                        The matching game features two bee-related categories. 
-                                        When a photo is clicked, it reveals whether the answer is correct or wrong, followed by an explanation.
-                                    </p>
-                                </div>
+                            <Image 
+                                src={"/hivefive_articles.png"}
+                                width={150}
+                                height={475}
+                                alt="screen mockup of hivefive's article page"
+                            />
+                        </div>
+                        <div className={styles.matchingContainer}>
+                            <Image 
+                                src={"/hivefive_matching.png"}
+                                width={420}
+                                height={650}
+                                alt="screen mockup of hivefive's matching pages"
+                            />
+                            <div className={styles.matchingInfo}>
+                                <h3>Matching</h3>
+                                <p>
+                                    The matching game features two bee-related categories. 
+                                    When a photo is clicked, it reveals whether the answer is correct or wrong, followed by an explanation.
+                                </p>
                             </div>
                         </div>
                     </section>

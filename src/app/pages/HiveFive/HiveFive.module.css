@@ -86,12 +86,12 @@
     margin: 0 4rem;
 }
 
-.aboutInfo h2 {
+.aboutInfo h2, .highlightsContainer h2 {
     font-weight: 600;
     font-size: 40px;
 }
 
-.aboutInfo p {
+.aboutInfo p, .quizContainer p, .articlesInfo p, .matchingInfo p {
     font-size: 24px;
     line-height: 1.75rem;
     margin: 1rem 0;
@@ -112,4 +112,37 @@
 .aboutInfo button:hover {
     background-color: var(--background);
     color: var(--off-white);
+}
+
+.quizInfo h3, .articlesInfo h3, .matchingContainer h3 {
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.highlightsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.quizContainer, .articlesContainer, .matchingContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.quizInfo, .articlesInfo, .matchingInfo {
+    margin: 0 3rem;
+}
+
+.quizContainer img, .matchingContainer img {
+    margin: 0 4rem;
+}
+
+.articlesContainer img {
+    margin: 0 7rem;
 }
