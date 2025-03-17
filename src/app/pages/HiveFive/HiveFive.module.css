@@ -1,0 +1,115 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    min-height: 100svh;
+    padding: 80px;
+    flex-shrink: 0;
+    font-family: var(--regular-font);
+    overflow-x: hidden;
+}
+
+.main h2 {
+    font-family: var(--header-font);
+}
+  
+.main {
+    display: flex;
+    flex-direction: column;
+    color: var(--off-white);
+    margin-top: 90px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.4);
+}
+  
+.imgContainer::after {
+    content: "HiveFive";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 16rem;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'against';
+    font-weight: 100;
+}
+
+.imgContainer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.information ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    gap: 14rem;
+    font-size: 20px;
+
+}
+
+.aboutContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    margin: 3rem 0;
+    background-color: #feecac;
+    padding: 0;
+    color: var(--background);
+}
+
+.aboutContainer img {
+    transform: rotate(-65deg);
+}
+
+.aboutInfo {
+    margin: 0 4rem;
+}
+
+.aboutInfo h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.aboutInfo p {
+    font-size: 24px;
+    line-height: 1.75rem;
+    margin: 1rem 0;
+}
+
+.aboutInfo button {
+    float: right;
+    background-color: inherit;
+    border: 3px solid var(--background);
+    color: var(--background);
+    padding: 1rem;
+    width: 30%;
+    font-size: 24px;
+    margin: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.aboutInfo button:hover {
+    background-color: var(--background);
+    color: var(--off-white);
+}

@@ -20,7 +20,7 @@ export default function HiveFive() {
                         <div className={styles.overlay}></div>
                     </div>
                     <section className={styles.about}>
-                        <div>
+                        <div className={styles.information}>
                             <ul>
                                 <li>Figma | Adobe Illustrator | VS Code</li>
                                 <li>UI/UX Designer | Graphic Designer | Frontend Developer</li>
