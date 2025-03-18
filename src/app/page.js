@@ -6,7 +6,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <div className={styles.cursor}></div>
+      <div className={styles.cursorDot}></div>
+      <div className={styles.cursorButterfly}></div>
       <Header/>
       <main className={styles.main}>
         <section className={styles.name}>
