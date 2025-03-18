@@ -6,6 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
+      <div className={styles.cursor}></div>
       <Header/>
       <main className={styles.main}>
         <section className={styles.name}>
