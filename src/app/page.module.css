@@ -12,6 +12,29 @@
   position: relative;
   overflow-x: hidden;
   color: var(--off-white);
+  cursor: none;
+}
+
+.cursorDot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--off-white);
+}
+
+.cursorButterfly {
+  width: 30px;
+  height: 30px;
+  background-image: url("/buttfly-1.svg");
+}
+
+.cursorDot,
+.cursorButterfly {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
 }
 
 .main {
