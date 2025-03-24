@@ -14,7 +14,8 @@ export default function Development() {
                     <Filter/>
                     <section className={styles.works}>
                         <div className={styles.lineOne}>
-                            <div className={styles.banner}>
+                            <Link href="/pages/NCTDREAM">
+                                <div className={styles.banner}>
                                     <Image 
                                         src={"/dreamlaptop.jpeg"}
                                         width={380}
@@ -23,10 +24,12 @@ export default function Development() {
                                     />
                                     <div className={styles.bannerInformation}>
                                         <h3>DREAMville</h3>
-                                        <Link href="/pages/NCTDREAM"><p>View Project</p></Link>
+                                        <p>View Project</p>
                                     </div>
-                            </div>
-                            <div className={styles.banner}>
+                                </div>
+                            </Link>
+                            <Link href="/pages/ReachOut">
+                                <div className={styles.banner}>
                                     <Image 
                                         src={"/reachout-cut.jpeg"}
                                         width={380}
@@ -35,11 +38,13 @@ export default function Development() {
                                     />
                                     <div className={styles.bannerInformation}>
                                         <h3>ReachOut</h3>
-                                        <Link href="/pages/ReachOut"><p>View Project</p></Link>
+                                        <p>View Project</p>
                                     </div>
-                            </div>
+                                </div>
+                            </Link>
                         </div>
                         <div className={styles.lineTwo}>
+                        <Link href="/pages/HiveFive">
                             <div className={styles.banner}>
                                 <Image 
                                     src={"/hivefivephone.jpeg"}
@@ -49,9 +54,10 @@ export default function Development() {
                                 />
                                 <div className={styles.bannerInformation}>
                                     <h3>HiveFive</h3>
-                                    <Link href="/pages/HiveFive"><p>View Project</p></Link>
+                                    <p>View Project</p>
                                 </div>
                             </div>
+                        </Link>
                         </div>
                     </section>
                 </main>
