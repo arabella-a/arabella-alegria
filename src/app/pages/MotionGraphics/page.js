@@ -16,14 +16,13 @@ export default function MotionGraphics() {
                     <Link href="/pages/WhatToDo">
                         <div className={styles.banner}>
                             <Image 
-                                src={"/motiongraphics.jpeg"}
-                                width={870}
-                                height={470}
-                                alt="a family of three eating at the dining table in the dining area"
+                                src={"/what_to_do_ipad.jpeg"}
+                                width={380}
+                                height={550}
+                                alt="what to do in an ipad mockup"
                             />
                             <div className={styles.bannerInformation}>
                                 <h3>What to do in a blackout</h3>
-                                <p>View Project</p>
                             </div>
                         </div>
                     </Link>

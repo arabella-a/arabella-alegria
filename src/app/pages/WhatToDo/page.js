@@ -1,5 +1,6 @@
 import styles from "./WhatToDo.module.css";
 import Header from "@/app/components/Header/Header";
+import Image from "next/image";
 
 export default function WhatToDo() {
     return (
@@ -7,12 +8,14 @@ export default function WhatToDo() {
             <div className={styles.page}>
                 <Header />
                 <main className={styles.main}>
-                    <h2>What to do in a blackout</h2>
-                    <section className={styles.videoContainer}>
-                        <video controls
-                            src={"/what-to-do.mp4"}
-                            width={1400}
+                    <section className={styles.imgContainer}>
+                        <Image 
+                            src={"/what_to_do_banner.jpeg"}
+                            width={1450}
+                            height={850}
+                            alt="zoomed in illustration of kate spade watch"
                         />
+                        <div className={styles.overlay}></div>
                     </section>
                     <section className={styles.aboutContainer}>
                         <h2>About Project</h2>
@@ -21,6 +24,12 @@ export default function WhatToDo() {
                             is your go-to guide on surviving a blackout—what to do, and more importantly, 
                             what not to do when the lights go out!
                         </p>
+                    </section>
+                    <section className={styles.videoContainer}>
+                        <video controls
+                            src={"/what-to-do.mp4"}
+                            width={1400}
+                        />
                     </section>
                 </main>
             </div>
