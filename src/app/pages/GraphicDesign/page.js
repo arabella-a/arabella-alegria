@@ -13,6 +13,7 @@ export default function GraphicDesign() {
                     <h1>Works</h1>
                     <Filter />
                     <section className={styles.works}>
+                    <Link href="/pages/Fizzy">
                         <div className={styles.banner}>
                             <Image 
                                 src={"/fizzycans.jpeg"}
@@ -22,21 +23,24 @@ export default function GraphicDesign() {
                             />
                             <div className={styles.bannerInformation}>
                                 <h3>fizzy</h3>
-                                <Link href="/pages/Fizzy"><p>View Project</p></Link>
+                                <p>View Project</p>
                             </div>
                         </div>
-                        <div className={styles.banner}>
-                            <Image 
-                                src={"/ningposter.jpeg"}
-                                width={380}
-                                height={550}
-                                alt="fizzy banner"
-                            />
-                            <div className={styles.bannerInformation}>
-                                <h3>aespa</h3>
-                                <Link href="/pages/Ningning"><p>View Project</p></Link>
+                    </Link>
+                        <Link href="/pages/Ningning">
+                            <div className={styles.banner}>
+                                <Image 
+                                    src={"/ningposter.jpeg"}
+                                    width={380}
+                                    height={550}
+                                    alt="fizzy banner"
+                                />
+                                <div className={styles.bannerInformation}>
+                                    <h3>aespa</h3>
+                                    <p>View Project</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </section>
                 </main>
             </div>

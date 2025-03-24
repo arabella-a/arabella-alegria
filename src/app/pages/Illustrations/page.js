@@ -14,6 +14,7 @@ export default function Illustrations() {
                     <Filter/>
                     <section className={styles.works}>
                         <div className={styles.lineOne}>
+                        <Link href="/pages/BrushStudy">
                             <div className={styles.banner}>
                                     <Image 
                                         src={"/illustration-banner.jpeg"}
@@ -23,9 +24,11 @@ export default function Illustrations() {
                                     />
                                     <div className={styles.bannerInformation}>
                                         <h3>Brush Study</h3>
-                                        <Link href="/pages/BrushStudy"><p>View Illustration</p></Link>
+                                        <p>View Illustration</p>
                                     </div>
                             </div>
+                        </Link>
+                        <Link href="/pages/Mechanical">
                             <div className={styles.banner}>
                                     <Image 
                                         src={"/mechanical-illustration.jpeg"}
@@ -35,9 +38,10 @@ export default function Illustrations() {
                                     />
                                     <div className={styles.bannerInformation}>
                                         <h3>Watch</h3>
-                                        <Link href="/pages/Mechanical"><p>View Illustration</p></Link>
+                                        <p>View Illustration</p>
                                     </div>
                             </div>
+                        </Link>
                         </div>
                     </section>
                 </main>
