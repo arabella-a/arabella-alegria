@@ -59,10 +59,6 @@ export default function UIUX() {
                                     height={550}
                                     alt="exutoire bakery on computer mockup"
                                 />
-                                <div className={styles.bannerInformation}>
-                                    <h3>Exutoire</h3>
-                                    <Link href="/pages/UnderConstruction"><p>View Project</p></Link>
-                                </div>
                             </div>
                         </div>
                     </section>
