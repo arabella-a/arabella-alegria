@@ -14,6 +14,7 @@ export default function UIUX() {
                     <Filter/>
                     <section className={styles.works}>
                         <div className={styles.lineOne}>
+                        <Link href="/pages/NCTDREAM">
                             <div className={styles.banner}>
                                     <Image 
                                         src={"/dreamlaptop.jpeg"}
@@ -23,23 +24,27 @@ export default function UIUX() {
                                     />
                                     <div className={styles.bannerInformation}>
                                         <h3>DREAMville</h3>
-                                        <Link href="/pages/NCTDREAM"><p>View Project</p></Link>
+                                        <p>View Project</p>
                                     </div>
                             </div>
-                            <div className={styles.banner}>
-                                    <Image 
-                                        src={"/reachout-cut.jpeg"}
-                                        width={380}
-                                        height={550}
-                                        alt="reachout on laptop mockup"
-                                    />
-                                    <div className={styles.bannerInformation}>
-                                        <h3>ReachOut</h3>
-                                        <Link href="/pages/ReachOut"><p>View Project</p></Link>
-                                    </div>
-                            </div>
+                        </Link>
+                            <Link href="/pages/ReachOut">
+                                <div className={styles.banner}>
+                                        <Image 
+                                            src={"/reachout-cut.jpeg"}
+                                            width={380}
+                                            height={550}
+                                            alt="reachout on laptop mockup"
+                                        />
+                                        <div className={styles.bannerInformation}>
+                                            <h3>ReachOut</h3>
+                                            <p>View Project</p>
+                                        </div>
+                                </div>
+                            </Link>
                         </div>
                         <div className={styles.lineTwo}>
+                        <Link href="/pages/HiveFive">
                             <div className={styles.banner}>
                                 <Image 
                                     src={"/hivefivephone.jpeg"}
@@ -49,17 +54,10 @@ export default function UIUX() {
                                 />
                                 <div className={styles.bannerInformation}>
                                     <h3>HiveFive</h3>
-                                    <Link href="/pages/HiveFive"><p>View Project</p></Link>
+                                    <p>View Project</p>
                                 </div>
                             </div>
-                            <div className={styles.banner}>
-                                <Image 
-                                    src={"/exutoirepc.jpeg"}
-                                    width={380}
-                                    height={550}
-                                    alt="exutoire bakery on computer mockup"
-                                />
-                            </div>
+                        </Link>
                         </div>
                     </section>
                 </main>
