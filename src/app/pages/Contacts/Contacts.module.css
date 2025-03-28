@@ -80,3 +80,19 @@
 .sns {
     display: flex;
 }
+
+/* tablet size */
+@media (min-width: 481px) and (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info {
+        gap: 3rem;
+        transform: scale(140%);
+        margin: 2rem 0 0 -10rem;
+    }
+}
