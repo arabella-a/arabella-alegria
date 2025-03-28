@@ -31,3 +31,19 @@
 .filterCategories a:hover, .filterCategories button:hover, .filterCategories .active {
     color: var(--mimi-pink);
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .filterCategories {
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .filterCategories a {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .Filter {
+        border-bottom: none;
+    }
+}
