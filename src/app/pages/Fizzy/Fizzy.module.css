@@ -167,3 +167,10 @@
 .dielineContainer img, .mockupContainer img {
     margin: 2rem 0;
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .imgContainer {
+        transform: scale(50%);
+        margin: -11rem 0 0 0;
+    }
+}
