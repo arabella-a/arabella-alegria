@@ -61,4 +61,8 @@
         font-size: 11px;
         white-space: nowrap;
     }
+
+    .Filter {
+        border-bottom: none;
+    }
 }

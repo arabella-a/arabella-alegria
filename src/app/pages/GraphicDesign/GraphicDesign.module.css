@@ -69,7 +69,8 @@
 /* phone size */
 @media (max-width: 480px) {
     .main h1 {
-        font-size: 28px;
+        font-size: 32px;
+        margin: 2rem 0 0 0;
     }
 
     .works {
