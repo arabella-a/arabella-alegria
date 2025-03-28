@@ -21,6 +21,28 @@
     margin-top: 90px;
 }
 
+.cursorDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--mimi-pink);
+}
+  
+.cursorButterfly {
+    margin: 10px;
+    transform: rotate(15deg);
+}
+  
+.cursorDot,
+.cursorButterfly {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
 .overlay {
     position: absolute;
     top: 0;
