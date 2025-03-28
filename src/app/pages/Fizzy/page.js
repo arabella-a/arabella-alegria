@@ -62,7 +62,7 @@ export default function Fizzy() {
                             />
                         </div>
                         <div className={styles.experienceContainer}>
-                        <Image 
+                            <Image 
                                     src={"/fizzy_flavour3.png"}
                                     width={205}
                                     height={450}
