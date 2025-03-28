@@ -1,6 +1,9 @@
+"use client";
+
 import styles from "./WhatToDo.module.css";
 import Header from "@/app/components/Header/Header";
 import Image from "next/image";
+import { useEffect } from "react";
 
 export default function WhatToDo() {
 
@@ -33,7 +36,7 @@ export default function WhatToDo() {
         window.addEventListener("mousemove", handleMouseMove);
         return () => window.removeEventListener("mousemove", handleMouseMove);
         }, []);
-        
+
     return (
         <>
             <div className={styles.page}>
