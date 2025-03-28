@@ -56,3 +56,33 @@
     color: #7c7c7c;
     font-family: var(--regular-font);
 }
+
+/* tablet size */
+@media (min-width: 481px) and (max-width: 768px) {
+    .main h1 {
+        font-size: 36px;
+        transform: translateX(7rem);
+        margin: 2rem 0 0 0;
+    }
+
+    .works {
+        transform: scale(70%);
+        margin: 0;
+    }
+}
+
+/* phone size */
+@media (max-width: 480px) {
+    .main h1 {
+        font-size: 32px;
+        margin: 2rem 0 0 0;
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        transform: scale(85%);
+        margin: 0;
+        gap: 0;
+    }
+}
