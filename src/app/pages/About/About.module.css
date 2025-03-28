@@ -92,3 +92,23 @@
         margin: 1rem 0;
     }
 }
+
+/* phone size */
+@media (max-width: 480px) {
+    .About {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMeInfo {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .aboutMe button {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
