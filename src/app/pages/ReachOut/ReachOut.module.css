@@ -299,3 +299,88 @@
 .compAnalysis {
     margin: 0 6.5rem 4rem 6.5rem;
 }
+
+/* tablet size */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .imgContainer::after {
+        font-size: 7rem;
+    }
+
+    .main h2 {
+        font-size: 32px;
+    }
+
+    .information ul {
+        gap: 8rem;
+        font-size: 16px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .aboutContainer img{
+        width: 550px;
+        margin: -7rem 0 0 0;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        margin: 8rem 0;
+        width: 90%;
+        transform: translate(2.5rem, -4rem);
+    }
+
+    .aboutInformation {
+        width: 90%;
+        margin: -5rem 0 0 0;
+    }
+
+    .aboutInformation button {
+        font-family: 'Lato';
+        width: 40%;
+        margin: 10px 0 1rem 0;
+    }
+
+    .aboutContainer h2 {
+        font-size: 32px;
+    }
+
+    .main p{
+        font-size: 16px;
+    }
+
+    .whoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: -10rem 0 0 4rem;
+    }
+
+    .personaContainer, .lineOne, .lineTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aiMatch, .tracking, .jobMatch {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .matchInfo, .trackingInfo, .jobMatchInfo {
+        width: 100%;
+    }
+    
+    .promoAd {
+        display: flex;
+        flex-direction: column;
+        margin: -2rem 0 0 0;
+    }
+}
