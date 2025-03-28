@@ -71,3 +71,56 @@
 .comparisonContainer img {
     margin: 0 7.5rem;
 }
+
+/* tablet size */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .imgContainer {
+        transform: scale(50%);
+        margin: -14rem 0 0 0;
+    }
+
+    .imgContainer::after {
+        font-size: 11rem;
+        font-weight: 300;
+    }
+
+    .main h2 {
+        font-size: 32px;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 48%;
+        margin: -10rem 0 0 0;
+    }
+
+    .aboutContainer h2 {
+        font-size: 32px;
+    }
+
+    .main p{
+        font-size: 16px;
+    }
+
+    .comparisonContainer {
+        width: 47%;
+    }
+
+    .comparison {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin: 2rem 0;
+    }
+
+    .comparison img {
+        transform: scale(50%);
+        margin: -10rem -3rem;
+    }
+}
