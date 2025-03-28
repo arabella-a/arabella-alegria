@@ -168,6 +168,7 @@
     margin: 2rem 0;
 }
 
+/* tablet size */
 @media (min-width: 481px) and (max-width: 768px) {
     .imgContainer {
         transform: scale(98%);
@@ -205,6 +206,75 @@
     .targetMarketContainer img {
         transform: scale(80%) rotate(-15deg);
         margin: 1rem 6rem 1rem 0;
+    }
+
+    .experienceContainer img {
+        transform: scale(80%) rotate(15deg);
+    }
+
+    .dielineContainer {
+        margin: 10rem 0 0 0;
+    }
+
+    .dielineContainer img, .mockupContainer img {
+        margin: 0.25rem 0;
+    }
+}
+
+/* phone size */
+
+@media (max-width: 480px) {
+
+    .imgContainer::after {
+        font-size: 9rem;
+    }
+
+    .main h2 {
+        font-size: 32px;
+    }
+
+    .information ul {
+        gap: 4rem;
+        font-size: 12px;
+        margin: 0 0 1rem 0;
+        justify-content: center;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 7rem 0;
+    }
+
+    .aboutContainer img{
+        transform: scale(70%) rotate(15deg);
+    }
+
+    .aboutInfo, .experienceInfo {
+        width: 100%;
+    }
+
+    .main p{
+        font-size: 16px;
+    }
+
+    .targetMarketContainer, .experienceContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5rem 0;
+    }
+
+    .targetMarketContainer img {
+        transform: scale(70%) rotate(-15deg);
+        margin: 0;
+    }
+
+    .targetMarketInfo {
+        margin: 5rem 0 0 0;
     }
 
     .experienceContainer img {
