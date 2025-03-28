@@ -377,10 +377,131 @@
     .matchInfo, .trackingInfo, .jobMatchInfo {
         width: 100%;
     }
-    
+
     .promoAd {
         display: flex;
         flex-direction: column;
         margin: -2rem 0 0 0;
+    }
+}
+
+/* phone size */
+@media (max-width: 480px) {
+
+    .imgContainer::after {
+        font-size: 4rem;
+    }
+
+    .main h2 {
+        font-size: 28px;
+    }
+
+    .information ul {
+        gap: 2rem;
+        font-size: 12px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .aboutContainer img{
+        transform: scale(70%) rotate(-40deg);
+        width: 450px;
+        margin: -7rem 0 0 0;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        margin: 8rem 0 0 -1rem;
+        width: 90%;
+        transform: translate(2.5rem, -4rem);
+    }
+
+    .aboutInformation {
+        width: 90%;
+        margin: -5rem 0 0 0;
+    }
+
+    .aboutInformation button {
+        font-family: 'Lato';
+        width: 50%;
+        font-size: 16px;
+        margin: -1rem 1rem 1rem 1rem;
+    }
+
+    .aboutContainer h2 {
+        font-size: 32px;
+    }
+
+    .main p{
+        font-size: 16px;
+    }
+
+    .whoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: 0 0 0 2rem;
+    }
+
+    .whoContainer img {
+        transform: scale(60%);
+        margin: -9rem 0;
+    }
+
+    .personaContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: -8rem 0 0 2rem;
+    }
+
+    .lineOne, .lineTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aiMatch, .tracking, .jobMatch {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .matchInformation {
+        width: 100%;
+    }
+
+    .userResearch, .compAnalysis, .styleGuide, .userFlowContainer, .keyFeatures {
+        width: 87%;
+        margin: 2rem;
+    }
+
+    .promoAd {
+        display: flex;
+        flex-direction: column;
+        margin: -5rem 2rem;
+    }
+
+    .promoAd video {
+        width: 400px;
+    }
+
+    .promoAdInfo {
+        margin: -2rem 0 0 0;
+    }
+
+    .aiMatch img, .tracking img , .jobMatch img{
+        transform: scale(60%);
+        margin: 0;
+    }
+
+    .mockupContainer {
+        width: 100%;
     }
 }
