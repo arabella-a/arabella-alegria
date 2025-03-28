@@ -146,3 +146,73 @@
 .articlesContainer img {
     margin: 0 7rem;
 }
+
+/* tablet size */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .imgContainer {
+        transform: scale(90%);
+    }
+
+    .imgContainer::after {
+        font-size: 9rem;
+    }
+
+    .main h2 {
+        font-size: 32px;
+    }
+
+    .information ul {
+        gap: 2rem;
+        font-size: 14px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .aboutContainer img{
+        transform: scale(90%) rotate(-65deg);
+        margin: -7rem 0 0 0;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        margin: 8rem 0;
+        width: 90%;
+        transform: translate(2.5rem, -4rem);
+    }
+
+    .aboutInfo button {
+        font-family: 'Lato';
+        width: 46%;
+        font-size: 18px;
+        margin: 11px;
+    }
+
+    .aboutContainer h2 {
+        font-size: 32px;
+    }
+
+    .main p{
+        font-size: 16px;
+    }
+
+    .highlightsContainer h2 {
+        margin: 0 2rem;
+    }
+
+    .highlightsContainer img {
+        transform: scale(80%);
+    }
+
+    .quizContainer, .articlesContainer, .matchingContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
