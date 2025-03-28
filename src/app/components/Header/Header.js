@@ -30,7 +30,7 @@ export default function Header() {
                             <Link href="/pages/About">About</Link>
                         </li>
                         <li className={pathname === "/pages/Contacts" ? styles.active : ""}>
-                            <Link href="/pages/Contacts">Contacts</Link>
+                            <Link href="/pages/Contacts">Contact</Link>
                         </li>
                     </ul>
                 </div>
