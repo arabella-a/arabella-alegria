@@ -187,6 +187,53 @@ margin: 2rem 0;
   }
 
   .information li {
-    margin: 4rem;
+    margin: 0 3rem;
+    font-size: 12px;
+  }
+
+  .cardContainer {
+    width: 400px;
+    margin: 0;
+  }
+
+  .recentProject h2 {
+    font-size: 32px;
+  }
+
+  .recentCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recentCard h3 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .recentCard img {
+    transform: translateX(-30rem) scale(75%);
+    margin: 0;
+  }
+
+  .projectDesc {
+    margin: 0;
+  }
+
+  .projectDesc p {
+    line-height: 24px;
+    font-size: 18px;
+    width: 30%;
+  }
+
+  .recentCard:nth-child(3) .projectType,
+  .recentCard:nth-child(3) .viewBtn,
+  .recentCard:nth-child(3) .projectDesc {
+      margin-left: -33rem;
+  }
+
+  .recentCard:nth-child(3) .projectDesc p {
+    width: 50%;
   }
 }
