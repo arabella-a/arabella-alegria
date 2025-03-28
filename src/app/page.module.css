@@ -179,3 +179,14 @@ margin: 2rem 0;
   flex-direction: column;
   width: 100%;
 }
+
+/* tablet size */
+@media (min-width: 600px) and (max-width: 768px) {
+  .firstName, .lastName {
+    transform: scale(80%);
+  }
+
+  .information li {
+    margin: 4rem;
+  }
+}

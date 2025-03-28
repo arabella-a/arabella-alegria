@@ -13,20 +13,20 @@ export default function GraphicDesign() {
                     <h1>Works</h1>
                     <Filter />
                     <section className={styles.works}>
-                    <Link href="/pages/Fizzy">
-                        <div className={styles.banner}>
-                            <Image 
-                                src={"/fizzycans.jpeg"}
-                                width={380}
-                                height={550}
-                                alt="fizzy banner"
-                            />
-                            <div className={styles.bannerInformation}>
-                                <h3>fizzy</h3>
-                                <p>View Project</p>
+                        <Link href="/pages/Fizzy">
+                            <div className={styles.banner}>
+                                <Image 
+                                    src={"/fizzycans.jpeg"}
+                                    width={380}
+                                    height={550}
+                                    alt="fizzy banner"
+                                />
+                                <div className={styles.bannerInformation}>
+                                    <h3>fizzy</h3>
+                                    <p>View Project</p>
+                                </div>
                             </div>
-                        </div>
-                    </Link>
+                        </Link>
                         <Link href="/pages/Ningning">
                             <div className={styles.banner}>
                                 <Image 
