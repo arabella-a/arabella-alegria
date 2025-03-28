@@ -12,7 +12,6 @@
   position: relative;
   overflow-x: hidden;
   color: var(--off-white);
-  cursor: none;
 }
 
 .cursorDot {
@@ -181,7 +180,7 @@ margin: 2rem 0;
 }
 
 /* tablet size */
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .firstName, .lastName {
     transform: scale(80%);
   }
@@ -215,6 +214,64 @@ margin: 2rem 0;
   .recentCard img {
     transform: translateX(-30rem) scale(75%);
     margin: 0;
+  }
+
+  .projectDesc {
+    margin: 0;
+  }
+
+  .projectDesc p {
+    line-height: 24px;
+    font-size: 18px;
+    width: 30%;
+  }
+
+  .recentCard:nth-child(3) .projectType,
+  .recentCard:nth-child(3) .viewBtn,
+  .recentCard:nth-child(3) .projectDesc {
+      margin-left: -33rem;
+  }
+
+  .recentCard:nth-child(3) .projectDesc p {
+    width: 50%;
+  }
+}
+
+/* phone size */
+@media (max-width: 480px) {
+  .firstName, .lastName {
+    transform: scale(60%);
+  }
+
+  .information li {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .cardContainer {
+    width: 400px;
+    margin: 0;
+  }
+
+  .recentProject h2 {
+    font-size: 28px;
+  }
+
+  .recentCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recentCard h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .recentCard img {
+    transform: translateX(-30rem) scale(69%);
+    margin: 0 0 0 -1.3rem;
   }
 
   .projectDesc {
