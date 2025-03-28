@@ -62,3 +62,33 @@
 .lineTwo {
     margin: -7rem 31rem 0 0;
 }
+
+/* tablet size */
+@media (min-width: 481px) and (max-width: 768px) {
+    .main h1 {
+        font-size: 36px;
+        transform: translateX(7rem);
+        margin: 2rem 0 0 0;
+    }
+
+    .works {
+        transform: scale(70%);
+        margin: -12rem 0 0 0;
+    }
+}
+
+/* phone size */
+@media (max-width: 480px) {
+    .main h1 {
+        font-size: 32px;
+        margin: 2rem 0 0 0;
+    }
+
+    .works, .lineOne, .lineTwo {
+        display: flex;
+        flex-direction: column;
+        transform: scale(85%);
+        margin: -7rem 0 0 0;
+        gap: 0;
+    }
+}
