@@ -216,3 +216,72 @@
     }
 }
 
+/* phone size */
+@media (max-width: 480px) {
+
+    .imgContainer {
+        transform: scale(80%);
+        margin: -6rem 0 0 0;
+    }
+
+    .imgContainer::after {
+        font-size: 6rem;
+    }
+
+    .main h2 {
+        font-size: 32px;
+    }
+
+    .information ul {
+        gap: 10px;
+        font-size: 10px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .aboutContainer img{
+        transform: scale(80%) rotate(-65deg);
+        margin: -7rem 0 0 0;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        margin: 10rem 1rem;
+        width: 80%;
+        transform: translate(2.5rem, -4rem);
+    }
+
+    .aboutInfo button {
+        font-family: 'Lato';
+        width: 100%;
+        font-size: 18px;
+        margin: 11px;
+    }
+
+    .aboutContainer h2 {
+        font-size: 32px;
+    }
+
+    .main p{
+        font-size: 16px;
+    }
+
+    .highlightsContainer h2 {
+        margin: 0 4rem;
+    }
+
+    .highlightsContainer img {
+        transform: scale(80%);
+    }
+
+    .quizContainer, .articlesContainer, .matchingContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
