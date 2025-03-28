@@ -56,5 +56,12 @@
 @media (min-width: 481px) and (max-width: 768px) {
     .main h1 {
         font-size: 36px;
+        transform: translateX(7rem);
+        margin: 2rem 0 0 0;
+    }
+
+    .works {
+        transform: scale(70%);
+        margin: 0;
     }
 }
