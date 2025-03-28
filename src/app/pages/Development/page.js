@@ -5,6 +5,7 @@ import Filter from "@/app/components/Filter/Filter";
 import styles from "./Development.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { useEffect } from "react";
 
 export default function Development() {
 
