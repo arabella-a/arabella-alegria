@@ -65,3 +65,18 @@
         margin: 0;
     }
 }
+
+/* phone size */
+@media (max-width: 480px) {
+    .main h1 {
+        font-size: 28px;
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        transform: scale(85%);
+        margin: 0;
+        gap: 0;
+    }
+}
