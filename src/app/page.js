@@ -41,7 +41,6 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-
       <Header/>
       <main className={styles.main}>
       <div className={styles.cursorDot} data-cursor-dot></div>
