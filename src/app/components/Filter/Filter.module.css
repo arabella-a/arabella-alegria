@@ -47,3 +47,18 @@
         border-bottom: none;
     }
 }
+
+/* phone size */
+@media (max-width: 480px) {
+    .filterCategories {
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .filterCategories a {
+        padding: 0;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+}
