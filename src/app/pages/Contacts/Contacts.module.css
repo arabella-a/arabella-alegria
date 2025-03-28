@@ -96,3 +96,25 @@
         margin: 2rem 0 0 -10rem;
     }
 }
+
+/* phone size */
+@media (max-width: 480px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cta {
+        transform: scale(80%);
+        margin: -4rem 0 1rem 1rem;
+    }
+
+    .info {
+        gap: 3rem;
+        transform: scale(120%);
+        margin: 2rem 0 0 -5rem;
+    }
+}
