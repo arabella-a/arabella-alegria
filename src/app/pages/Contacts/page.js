@@ -7,35 +7,35 @@ import Image from "next/image";
 
 export default function Contacts() {
 
-            useEffect(() => {
-              const cursorDot = document.querySelector("[data-cursor-dot]");
-              const cursorButterfly = document.querySelector("[data-cursor-outline]");
+    useEffect(() => {
+        const cursorDot = document.querySelector("[data-cursor-dot]");
+        const cursorButterfly = document.querySelector("[data-cursor-outline]");
           
-              if (!cursorDot || !cursorButterfly) {
-                console.error("Cursor elements not found!");
-                return;
-              }
+        if (!cursorDot || !cursorButterfly) {
+            console.error("Cursor elements not found!");
+            return;
+        }
           
-              const handleMouseMove = (e) => {
-                const posX = e.clientX;
-                const posY = e.clientY;
+        const handleMouseMove = (e) => {
+        const posX = e.clientX;
+        const posY = e.clientY;
           
-                console.log("Mouse position:", posX, posY); 
+        console.log("Mouse position:", posX, posY); 
           
-                cursorDot.style.left = `${posX}px`;
-                cursorDot.style.top = `${posY}px`;
+        cursorDot.style.left = `${posX}px`;
+        cursorDot.style.top = `${posY}px`;
           
-                cursorButterfly.animate(
-                  {
-                    transform: `translate(${posX}px, ${posY}px)`,
-                  },
-                  { duration: 150, fill: "forwards" }
-                );
-              };
+        cursorButterfly.animate(
+            {
+                transform: `translate(${posX}px, ${posY}px)`,
+            },
+            { duration: 150, fill: "forwards" }
+        );
+        };
           
-              window.addEventListener("mousemove", handleMouseMove);
-              return () => window.removeEventListener("mousemove", handleMouseMove);
-            }, []);
+        window.addEventListener("mousemove", handleMouseMove);
+        return () => window.removeEventListener("mousemove", handleMouseMove);
+        }, []);
 
     return (
         <>
