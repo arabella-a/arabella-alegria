@@ -72,3 +72,23 @@
 .aboutMeInfo {
     margin: 0 5rem;
 }
+
+/* tablet size */
+@media (min-width: 481px) and (max-width: 768px) {
+    .About {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMeInfo {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .aboutMe button {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
