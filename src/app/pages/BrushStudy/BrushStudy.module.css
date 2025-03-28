@@ -146,3 +146,62 @@
         margin: -13rem 0;
     }
 }
+
+/* phone size */
+@media (max-width: 480px) {
+
+    .imgContainer {
+        transform: scale(30%);
+        margin: -19rem 0 0 0;
+    }
+
+    .imgContainer::after {
+        font-size: 11rem;
+        font-weight: 300;
+    }
+
+    .main h2 {
+        font-size: 32px;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        margin: -17rem 0 0 0;
+    }
+
+    .aboutContainer h2 {
+        font-size: 28px;
+    }
+
+    .main p{
+        font-size: 16px;
+    }
+
+    .comparisonContainer {
+        width: 28%;
+        margin: 1rem;
+    }
+
+    .comparison {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comparison img {
+        transform: scale(90%);
+        margin: 1rem 0 0 -1rem;
+    }
+
+    .mockupContainer {
+        width: 30%;
+    }
+
+    .mockup img {
+        transform: scale(30%);
+        margin: -18rem 0;
+    }
+}
