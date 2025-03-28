@@ -139,3 +139,45 @@
     font-weight: 600;
     font-size: 32px;
 }
+
+/* tablet size */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .imgContainer::after {
+        font-size: 10rem;
+    }
+
+    .main h2 {
+        font-size: 32px;
+    }
+
+    .information ul {
+        gap: 5rem;
+        font-size: 16px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .aboutContainer img{
+        transform: scale(80%);
+        margin: 0;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        height: 575px;
+    }
+
+    .aboutInfo button {
+        font-family: 'Lato';
+    }
+
+    .aboutContainer h2 {
+        font-size: 32px;
+    }
+
+    .main p{
+        font-size: 16px;
+    }
+}
