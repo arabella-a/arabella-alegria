@@ -41,10 +41,53 @@
     margin: 2rem;
 }
 
-.imgContainer {
+.imgContainer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("/illustration-mockup.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+
+    mask-image: url("/ink.gif");
+    mask-size: cover;
+    mask-position: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    100% { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.imgContainer  {
     position: relative;
     display: inline-block;
     margin: 1rem auto;
+    height: 850px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+.imgContainer::after {
+    content: "Brush Study";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 10rem;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'against';
+    font-weight: 100;
+    z-index: 2;
+    opacity: 0;
+    white-space: nowrap;
+
+    animation: fadeIn 0.5s ease-in-out 4.5s forwards;
 }
 
 .overlay {
@@ -54,20 +97,6 @@
     width: 100%;
     height: 100%;
     background-color: rgba(33, 33, 33, 0.4);
-}
-  
-.imgContainer::after {
-    content: "Brush Study";
-    position: absolute;
-    bottom: 10px;
-    left: 53%;
-    padding: 10px;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 11rem;
-    font-weight: bold;
-    font-family: 'against';
-    width: 100%;
 }
 
 .aboutContainer {
