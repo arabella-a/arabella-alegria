@@ -57,6 +57,17 @@
     height: 100%;
     background-color: rgba(33, 33, 33, 0.4);
 }
+
+.imgContainer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("/fizzy-banner.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
   
 .imgContainer::after {
     content: "fizzy";
