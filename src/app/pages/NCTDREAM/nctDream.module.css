@@ -243,7 +243,7 @@
 
     .imgContainer {
         transform: scale(60%);
-        margin: -8rem 0 0 0;
+        margin: -15rem 0 0 0;
     }
 
     .imgContainer::after {
@@ -257,7 +257,7 @@
     .information ul {
         gap: 5rem;
         font-size: 12px;
-        margin: -6rem 0 0 0;
+        margin: -10rem 0 0 0;
         justify-content: center;
     }
 
