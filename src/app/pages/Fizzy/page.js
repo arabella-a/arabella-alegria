@@ -55,13 +55,6 @@ export default function Fizzy() {
                         />
                     </div>
                     <div className={styles.imgContainer}>
-                        <Image 
-                            src={"/fizzy-banner.jpeg"}
-                            layout="responsive"
-                            width={100}
-                            height={850}
-                            alt="three fizzy cans the their flavours splayed out on the floor"
-                        />
                         <div className={styles.overlay}></div>
                     </div>
                     <section className={styles.about}>

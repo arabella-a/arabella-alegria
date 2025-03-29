@@ -66,7 +66,16 @@
     background-position: top;
     background-size: cover;
     background-position: center;
-    z-index: -1;
+    z-index: 1;
+
+    mask-image: url("/ink.gif");
+    mask-size: cover;
+    mask-position: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    100% { opacity: 1; transform: translateX(-50%) translateY(0); }
 }
   
 .imgContainer::after {
@@ -81,6 +90,10 @@
     font-weight: bold;
     font-family: 'against';
     font-weight: 100;
+    opacity: 0;
+    z-index: 2;
+
+    animation: fadeIn 0.5s ease-in-out 4.5s forwards;
 }
 
 
@@ -88,6 +101,7 @@
     position: relative;
     display: inline-block;
     margin: 1rem auto;
+    height: 850px;
     justify-content: center;
     align-items: center;
     width: 100%;
