@@ -52,12 +52,6 @@ export default function BrushStudy() {
                         />
                     </div>
                     <section className={styles.imgContainer}>
-                        <Image 
-                            src={"/illustration-mockup.jpeg"}
-                            width={1450}
-                            height={850}
-                            alt="photoshop illustration of a girl on a frame mockup"
-                        />
                         <div className={styles.overlay}></div>
                     </section>
                     <section className={styles.aboutContainer}>

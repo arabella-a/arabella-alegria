@@ -52,6 +52,37 @@
     background-color: rgba(33, 33, 33, 0.4);
 }
   
+.imgContainer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("/reachout-banner.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+
+    mask-image: url("/ink.gif");
+    mask-size: cover;
+    mask-position: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    100% { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.imgContainer  {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+    height: 850px;
+    transform: scale(90%);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
 .imgContainer::after {
     content: "ReachOut";
     position: absolute;
@@ -59,21 +90,15 @@
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-size: 14rem;
+    font-size: 12rem;
     padding: 10px;
     font-weight: bold;
     font-family: 'against';
     font-weight: 100;
-}
+    z-index: 2;
+    opacity: 0;
 
-.imgContainer  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: inline-block;
-    transform: scale(90%);
-    width: 100%;
+    animation: fadeIn 0.5s ease-in-out 4.5s forwards;
 }
 
 .information ul {
