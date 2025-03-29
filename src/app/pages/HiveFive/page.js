@@ -53,13 +53,6 @@ export default function HiveFive() {
                         />
                     </div>
                     <div className={styles.imgContainer}>
-                        <Image 
-                            src={"/hivefive_banner.jpeg"}
-                            layout="responsive"
-                            width={100}
-                            height={100}
-                            alt="hivefive on phone mockup"
-                        />
                         <div className={styles.overlay}></div>
                     </div>
                     <section className={styles.about}>
