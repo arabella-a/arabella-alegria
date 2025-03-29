@@ -218,8 +218,8 @@
 /* tablet size */
 @media (min-width: 481px) and (max-width: 768px) {
     .imgContainer {
-        transform: scale(98%);
-        margin: -2rem 0;
+        transform: scale(87%);
+        margin: -4rem 0 0 0;
     }
 
     .imgContainer::after {
@@ -231,9 +231,9 @@
     }
 
     .information ul {
-        gap: 1rem;
-        font-size: 12px;
-        margin: 0;
+        gap: 5rem;
+        font-size: 16px;
+        margin: -2rem 0;
         justify-content: center;
     }
 
