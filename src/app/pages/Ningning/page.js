@@ -52,13 +52,6 @@ export default function Ningning() {
                         />
                     </div>
                     <div className={styles.imgContainer}>
-                        <Image 
-                            src={"/ningning_poster_wall.jpg"}
-                            layout="responsive"
-                            width={100}
-                            height={850}
-                            alt="ningning poster on a wall"
-                        />
                         <div className={styles.overlay}></div>
                     </div>
                     <section className={styles.about}>
