@@ -51,6 +51,36 @@
     height: 100%;
     background-color: rgba(33, 33, 33, 0.4);
 }
+
+.imgContainer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("/dream_banner.png");
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+
+    mask-image: url("/ink.gif");
+    mask-size: cover;
+    mask-position: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateX(-50%) translateY(20px); }
+    100% { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.imgContainer  {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+    height: 850px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
   
 .imgContainer::after {
     content: "DREAMville";
@@ -64,6 +94,10 @@
     font-weight: bold;
     font-family: 'against';
     font-weight: 100;
+    z-index: 2;
+    opacity: 0;
+
+    animation: fadeIn 0.5s ease-in-out 4.5s forwards;
 }
 
 .imgContainer  {

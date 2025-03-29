@@ -53,13 +53,6 @@ export default function NCTDREAM() {
                         />
                     </div>
                     <div className={styles.imgContainer}>
-                        <Image 
-                            src={"/dream_banner.png"}
-                            layout="responsive"
-                            width={100}
-                            height={100}
-                            alt="nct dream website on a laptop mockup"
-                        />
                         <div className={styles.overlay}></div>
                     </div>
                     <section className={styles.about}>
