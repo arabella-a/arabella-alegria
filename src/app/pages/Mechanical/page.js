@@ -52,12 +52,6 @@ export default function Mechanical() {
                         />
                     </div>
                     <section className={styles.imgContainer}>
-                        <Image 
-                            src={"/mechanical-banner.jpeg"}
-                            width={1450}
-                            height={850}
-                            alt="zoomed in illustration of kate spade watch"
-                        />
                         <div className={styles.overlay}></div>
                     </section>
                     <section className={styles.aboutContainer}>
