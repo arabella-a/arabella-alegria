@@ -54,13 +54,6 @@ export default function ReachOut() {
                     </div>
                     <Header />
                     <div className={styles.imgContainer}>
-                        <Image 
-                            src="/reachout-banner.jpeg"
-                            layout="responsive"
-                            width={100}
-                            height={850}
-                            alt="reachout on laptop mockup with white background"
-                        />
                         <div className={styles.overlay}></div>
                     </div>
                     <section className={styles.about}>

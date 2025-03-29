@@ -100,15 +100,6 @@
     animation: fadeIn 0.5s ease-in-out 4.5s forwards;
 }
 
-.imgContainer  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-
 .information ul {
     display: flex;
     flex-direction: row;
@@ -257,7 +248,7 @@
     .information ul {
         gap: 5rem;
         font-size: 12px;
-        margin: -10rem 0 0 0;
+        margin: -10 rem 0 0 0;
         justify-content: center;
     }
 
